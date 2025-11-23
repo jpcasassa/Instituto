@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E75AD052-6DF1-444C-705C-26D45109A93A" name="Vehichulo_Mecanico">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-09 23:33:37 UTC</createdTime>
+<ownerDesignName>Negocio001</ownerDesignName>
+<engineerTo>
+<item key="3F4108FC-2A74-F1EC-1342-500B20A4E12D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_vehiculo_mecanico" id="4467ECDD-FA7D-17B0-6DA1-7B6B40D7913D">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-09 23:33:48 UTC</createdTime>
+<ownerDesignName>Negocio001</ownerDesignName>
+<engineerTo>
+<item key="3F4108FC-2A74-F1EC-1342-500B20A4E12D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="D3CA3574-71BA-BB58-6497-05FD868681C5">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-09 23:33:55 UTC</createdTime>
+<ownerDesignName>Negocio001</ownerDesignName>
+<engineerTo>
+<item key="3F4108FC-2A74-F1EC-1342-500B20A4E12D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_vehiculo" id="2AFB70A8-45A6-A215-8618-3F359CF1FC10">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-09 23:34:44 UTC</createdTime>
+<generatorID>92B722E3-45EB-021F-FF9F-6DA16494DCEF</generatorID>
+<ownerDesignName>Negocio001</ownerDesignName>
+<engineerTo>
+<item key="3F4108FC-2A74-F1EC-1342-500B20A4E12D" value="true"/>
+</engineerTo>
+<referedAttribute>904CB134-9972-895F-BC70-F81A5A789B72</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="patente" id="5BA23287-1F57-32DF-B6A3-B41D0DFFB91E">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-09 23:34:44 UTC</createdTime>
+<generatorID>92B722E3-45EB-021F-FF9F-6DA16494DCEF</generatorID>
+<ownerDesignName>Negocio001</ownerDesignName>
+<engineerTo>
+<item key="3F4108FC-2A74-F1EC-1342-500B20A4E12D" value="true"/>
+</engineerTo>
+<referedAttribute>65EEACDD-AE03-0BF8-982A-037B48E5CFD4</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

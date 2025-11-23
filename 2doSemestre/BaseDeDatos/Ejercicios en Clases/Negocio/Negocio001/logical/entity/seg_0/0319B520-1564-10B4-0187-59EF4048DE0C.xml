@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0319B520-1564-10B4-0187-59EF4048DE0C" name="Regiones">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-09 22:50:42 UTC</createdTime>
+<ownerDesignName>Negocio001</ownerDesignName>
+<engineerTo>
+<item key="3F4108FC-2A74-F1EC-1342-500B20A4E12D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_region" id="A417CD83-6DD8-B272-E1A0-9CD0F62841D9">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-09 22:50:49 UTC</createdTime>
+<ownerDesignName>Negocio001</ownerDesignName>
+<engineerTo>
+<item key="3F4108FC-2A74-F1EC-1342-500B20A4E12D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="867D228E-300B-D90E-0A19-EF34FEA86B86">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-09 22:50:55 UTC</createdTime>
+<ownerDesignName>Negocio001</ownerDesignName>
+<engineerTo>
+<item key="3F4108FC-2A74-F1EC-1342-500B20A4E12D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C399413B-70BB-3D15-DEC4-D14F98DE1AD2" name="Regiones PK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-09 22:50:54 UTC</createdTime>
+<ownerDesignName>Negocio001</ownerDesignName>
+<engineerTo>
+<item key="3F4108FC-2A74-F1EC-1342-500B20A4E12D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A417CD83-6DD8-B272-E1A0-9CD0F62841D9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

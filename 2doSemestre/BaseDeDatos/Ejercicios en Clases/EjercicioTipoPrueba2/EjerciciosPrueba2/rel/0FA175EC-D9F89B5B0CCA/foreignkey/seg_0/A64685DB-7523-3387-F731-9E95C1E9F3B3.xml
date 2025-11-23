@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A64685DB-7523-3387-F731-9E95C1E9F3B3" containerWithKeyObject="CC265891-FB3F-2E5D-60DF-333945333639" localFKIndex="C2B51BD2-3E80-CBB6-F481-4E5962D9F265" name="Inversiones_Recursos_FK">
+<createdBy>Casassa</createdBy>
+<createdTime>2025-10-17 02:42:48 UTC</createdTime>
+<generatorID>7A263ECD-4D0F-0798-2711-9B928F4426C4</generatorID>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<referredTableLongName>Recursos</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F40253BE-0AE2-6D67-4D9C-ADBC5CD1F30F</referredTableID>
+<keyObject>26B46320-4FAB-819C-AB32-A5570957E0D9</keyObject>
+<referredKeyID>26B46320-4FAB-819C-AB32-A5570957E0D9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_recurso</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

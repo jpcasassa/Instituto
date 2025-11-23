@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F40253BE-0AE2-6D67-4D9C-ADBC5CD1F30F" name="Recursos">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-16 22:06:05 UTC</createdTime>
+<generatorID>13A884EF-F564-651F-1714-1A3C8E365F00</generatorID>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_recurso" id="C7E5EF2C-0D63-F10E-3EEA-27D3EBFDBB3F">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-16 22:06:05 UTC</createdTime>
+<generatorID>EE96DFF7-C125-8AA3-0447-13B8AF0968CB</generatorID>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="puntaje" id="FFA65AA7-2CC3-164A-B864-1E62C6B7D681">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-16 22:06:05 UTC</createdTime>
+<generatorID>B9660F9D-F390-8B13-C518-A90707843EB8</generatorID>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="monto_asignado_uf" id="1CB16F3F-FAC2-4F6E-AE2B-4B4D63415802">
+<createdBy>Casassa</createdBy>
+<createdTime>2025-10-17 02:42:48 UTC</createdTime>
+<generatorID>95F8FEF8-CB90-46E2-ACB6-F42BB9D64D1B</generatorID>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,15,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cumple_requisito" id="AEF9D322-FD42-25FE-7E6E-E92927B79E9F">
+<createdBy>Casassa</createdBy>
+<createdTime>2025-10-17 02:42:48 UTC</createdTime>
+<generatorID>0932C399-ADBD-85D8-15A8-23A972DCDA34</generatorID>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="26B46320-4FAB-819C-AB32-A5570957E0D9" name="Recursos_PK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-16 22:06:05 UTC</createdTime>
+<generatorID>E17BA63C-8CE9-D215-620B-356DDE321DCE</generatorID>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7E5EF2C-0D63-F10E-3EEA-27D3EBFDBB3F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

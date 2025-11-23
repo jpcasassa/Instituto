@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B5B43B22-4C83-06C4-6723-29CF7D910A21" name="Vehiculos_Mecanicos">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-25 23:00:21 UTC</createdTime>
+<generatorID>2BF0C2F2-95D6-7891-03DC-FCB7804E78F3</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_vehiculo_mecanico" id="B5636F0D-D70C-1B4C-BA83-724A2123DC3C">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-25 23:00:21 UTC</createdTime>
+<generatorID>383270E4-CFFC-6868-02D9-0913BBF52D4C</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Vehiculos_id_vehiculo" id="61C44400-E817-6252-0634-07A1C665FBD2">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-25 23:00:21 UTC</createdTime>
+<generatorID>A3A604E2-286A-319B-C002-28556CC7CC4E</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D55A3732-62BC-3D75-04B6-A69B2878C761" referredColumn="9D8F4E56-631E-8B04-E5BF-BD8C66C94DFC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EB7CAD94-5EDA-19C1-04A2-73A2F694253E" name="Vehiculos_Mecanicos_PK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-25 23:00:21 UTC</createdTime>
+<generatorID>B3B587EC-0344-490F-2E9D-BD3E30657B71</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5636F0D-D70C-1B4C-BA83-724A2123DC3C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B563E469-1DB4-896D-2F06-7E55261C2D2F" name="Vehiculos_Mecanicos_Vehiculos_FK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-25 23:00:21 UTC</createdTime>
+<generatorID>944B7BB1-3810-62C5-ECB1-DCA64FBA3D49</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61C44400-E817-6252-0634-07A1C665FBD2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

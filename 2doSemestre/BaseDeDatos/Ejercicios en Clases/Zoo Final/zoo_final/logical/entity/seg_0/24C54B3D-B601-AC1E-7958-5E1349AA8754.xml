@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="24C54B3D-B601-AC1E-7958-5E1349AA8754" name="Sucursal">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-19 23:47:50 UTC</createdTime>
+<ownerDesignName>zoo_final</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id sucursal" id="D491E375-7BEF-C51E-6E66-0BDCD832C6A2">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-19 23:47:58 UTC</createdTime>
+<ownerDesignName>zoo_final</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="89264F57-E120-5CE5-F9E1-2F686C4C7541">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-19 23:48:04 UTC</createdTime>
+<ownerDesignName>zoo_final</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Parques id parque" id="03E048D9-8D73-AF17-22A9-D700190E4395">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-22 00:03:02 UTC</createdTime>
+<generatorID>83D40E05-F227-B1A0-3C2C-43B8AD42C27D</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<referedAttribute>F8976669-D6B6-4697-EF37-5BDDD348A0B9</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id zona" id="A72A137C-058A-DAB0-CE64-0205A07A85A8">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-26 23:48:22 UTC</createdTime>
+<generatorID>41DC0247-E531-9A89-9DEC-71270C5841F6</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<referedAttribute>4C258B86-174C-B77B-EBB0-9CBFE5290DD1</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B0AA6710-7449-792B-B574-728DB1E2E200" name="Sucursal PK">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-19 23:48:03 UTC</createdTime>
+<ownerDesignName>zoo_final</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D491E375-7BEF-C51E-6E66-0BDCD832C6A2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

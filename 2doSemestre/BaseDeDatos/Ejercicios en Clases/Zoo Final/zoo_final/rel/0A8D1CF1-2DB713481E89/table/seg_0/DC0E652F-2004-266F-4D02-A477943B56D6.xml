@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DC0E652F-2004-266F-4D02-A477943B56D6" name="Guias">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>B92351BA-1D5E-3190-6A9B-C8DD4CBD5B4A</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_guia" id="39A8CF5C-47C5-3EB2-8E90-6D5AA36197DF">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>1B436BB4-26BD-9FCB-5308-01BD955ABA65</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="0A1F6BE2-EE26-74C9-BB4C-F815D3B9DA31">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>6A4A30D0-8E20-6509-B2B2-DFC252BD5AF6</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="primer_apellido" id="9A7DE20F-0D4D-4AE0-A0F1-AC600534B4CA">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>AD9F25A5-07EE-47F3-66E0-5BC7C41EBC24</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="segundo_apellido" id="FF436832-44E5-455F-324B-9977CE301A03">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>298BA212-B236-9980-80E3-E482B9456EE0</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_ingreso" id="C90CB2E4-721A-F8FB-E454-D6A21A7DF804">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>3045D735-0EC6-9156-8FAF-29B6C7739255</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="EB092C65-2BF1-E65F-A2D2-A076B2CF29BE">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>BA0F811F-785E-0C84-4118-BD3933192252</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9D6CC3A3-F3C3-DD75-4E86-3801EAB0231A" name="Guias_PK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>9C8B0881-68D7-2204-7569-174776AD9748</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39A8CF5C-47C5-3EB2-8E90-6D5AA36197DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

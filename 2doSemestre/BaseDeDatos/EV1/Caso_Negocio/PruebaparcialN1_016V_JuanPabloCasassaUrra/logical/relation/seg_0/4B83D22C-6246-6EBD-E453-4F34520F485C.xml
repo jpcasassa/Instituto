@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_22" directorySegmentName="seg_0" id="4B83D22C-6246-6EBD-E453-4F34520F485C">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-12 01:30:57 UTC</createdTime>
+<ownerDesignName>PruebaparcialN1_016V_JuanPabloCasassaUrra</ownerDesignName>
+<engineerTo>
+<item key="18D7BD2B-1603-26D9-85A8-731FD4FC53AE" value="true"/>
+</engineerTo>
+<sourcePk>9C0683D9-433F-99F4-AF9D-4488CD23A2DF</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A1D6C1CD-3F9E-2A23-7C41-0AF2B9D9D00F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4F095CC0-20EC-CD75-17F4-401ED6D7DB4C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

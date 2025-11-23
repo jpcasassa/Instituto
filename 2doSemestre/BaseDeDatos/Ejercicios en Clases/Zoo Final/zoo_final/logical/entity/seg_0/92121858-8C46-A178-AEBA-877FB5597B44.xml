@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="92121858-8C46-A178-AEBA-877FB5597B44" name="Habitats Especies">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-20 00:50:56 UTC</createdTime>
+<ownerDesignName>zoo_final</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id habitat especie" id="6FA96C3F-7F1E-A8FC-E262-69A01845B554">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-20 00:52:21 UTC</createdTime>
+<ownerDesignName>zoo_final</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Especies id especie" id="AB347CC9-2C0E-4374-A03D-36E5565E9359">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-20 00:51:52 UTC</createdTime>
+<generatorID>87992EF3-9D2C-1C15-8917-3592ACAA9CF9</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<referedAttribute>FEF40A05-6286-149C-CC24-834F9A207B44</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Habitats id habitat" id="EBF792A6-439F-8099-3E1A-F18326576A1F">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-20 00:51:56 UTC</createdTime>
+<generatorID>D53BC631-AB61-30F3-5ED7-64F3DA68BE27</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<referedAttribute>57FA9A16-3A0F-1684-E7B2-C3FFBB42AD43</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8EE9161D-A940-0EA8-59D1-E47C685604E4" name="Habitats_Especies_PK">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-20 00:52:35 UTC</createdTime>
+<ownerDesignName>zoo_final</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6FA96C3F-7F1E-A8FC-E262-69A01845B554</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

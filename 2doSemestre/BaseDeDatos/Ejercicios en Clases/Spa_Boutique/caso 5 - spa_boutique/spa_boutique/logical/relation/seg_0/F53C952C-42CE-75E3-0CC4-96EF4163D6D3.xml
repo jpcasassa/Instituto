@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_5" directorySegmentName="seg_0" id="F53C952C-42CE-75E3-0CC4-96EF4163D6D3">
+<createdBy>BilbaoLabs</createdBy>
+<createdTime>2024-02-29 19:29:49 UTC</createdTime>
+<ownerDesignName>spa_boutique</ownerDesignName>
+<engineerTo>
+<item key="8AA3C162-D1AA-82A5-7D71-ABF03733A398" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>5B0ADE74-E71C-1D9D-9C30-E90F9293B95D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>55DC05E1-F9BA-6253-53A0-13CD2BEB1D6B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

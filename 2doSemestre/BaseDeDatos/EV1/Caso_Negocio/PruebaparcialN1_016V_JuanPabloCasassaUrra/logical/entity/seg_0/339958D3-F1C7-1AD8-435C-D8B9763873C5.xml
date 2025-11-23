@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="339958D3-F1C7-1AD8-435C-D8B9763873C5" name="Docentes">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-11 23:48:44 UTC</createdTime>
+<ownerDesignName>PruebaparcialN1_016V_JuanPabloCasassaUrra</ownerDesignName>
+<engineerTo>
+<item key="18D7BD2B-1603-26D9-85A8-731FD4FC53AE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_docente" id="DDCE44E4-8EFD-B6E7-FF60-15FDAD7AFBEF">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-12 01:14:37 UTC</createdTime>
+<ownerDesignName>PruebaparcialN1_016V_JuanPabloCasassaUrra</ownerDesignName>
+<engineerTo>
+<item key="18D7BD2B-1603-26D9-85A8-731FD4FC53AE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut_usuario" id="BC232469-0793-CF15-7939-1C1C833FD276">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-12 00:39:09 UTC</createdTime>
+<generatorID>6A2F710A-97C5-3A83-15EE-D5EA09DC1FD7</generatorID>
+<ownerDesignName>PruebaparcialN1_016V_JuanPabloCasassaUrra</ownerDesignName>
+<engineerTo>
+<item key="18D7BD2B-1603-26D9-85A8-731FD4FC53AE" value="true"/>
+</engineerTo>
+<referedAttribute>46727327-E9F5-4C88-5CC2-4797D87F96E6</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CF0263D3-1EE4-6F9F-3FEF-898518119791" name="Docentes PK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-11 23:49:10 UTC</createdTime>
+<ownerDesignName>PruebaparcialN1_016V_JuanPabloCasassaUrra</ownerDesignName>
+<engineerTo>
+<item key="18D7BD2B-1603-26D9-85A8-731FD4FC53AE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BC232469-0793-CF15-7939-1C1C833FD276</attributeRef>
+<attributeRef>DDCE44E4-8EFD-B6E7-FF60-15FDAD7AFBEF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

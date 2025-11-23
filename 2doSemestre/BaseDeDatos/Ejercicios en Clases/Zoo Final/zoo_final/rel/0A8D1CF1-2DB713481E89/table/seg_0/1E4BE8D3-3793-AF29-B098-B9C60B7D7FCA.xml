@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1E4BE8D3-3793-AF29-B098-B9C60B7D7FCA" name="Visitas">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>CE9CDFF3-A72B-C892-3FB6-4B0984796484</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_visita" id="AB2A63BB-5A86-6F47-6E78-8A8C44712FB2">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>62ACCEFD-DBC7-BBDA-356C-B81F360CD88B</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correlativo" id="82232E9B-A2F9-F0FD-61FE-6B3E8791A0A7">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>1B7C70A0-AD38-4EF5-3DD0-69875717EAFD</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dia_visita" id="5A3B2055-8A5F-B8A4-6A04-3E8704863579">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>4C990CA9-55BB-B0D0-4DCD-5D78DD517F8D</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="razon_visita" id="F5085ED8-71DA-CE3C-50EC-A22683D96CF6">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>F7A8533C-EB4F-5047-7D39-3D385A7A3C9E</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FD7C17CD-5D1F-A2E9-D77E-340AB976AE7A" name="Visitas_PK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>5A389629-AEB9-2B7D-3903-AF2619B6A363</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB2A63BB-5A86-6F47-6E78-8A8C44712FB2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

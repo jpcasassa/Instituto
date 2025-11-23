@@ -1,0 +1,206 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="57118E7E-FB10-715D-5A15-E38A6AA73FA1" name="Directores">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-14 03:31:17 UTC</createdTime>
+<ownerDesignName>Contrato001</ownerDesignName>
+<engineerTo>
+<item key="C230432E-413D-9612-3BC4-BD2A359457B4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_director" id="635378F6-42E2-D8F7-5EDC-BF7CAF74CAE4">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-14 03:31:35 UTC</createdTime>
+<ownerDesignName>Contrato001</ownerDesignName>
+<engineerTo>
+<item key="C230432E-413D-9612-3BC4-BD2A359457B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="run" id="2D6BC79A-CCC1-8319-E6CF-F0862225D76B">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-14 03:35:02 UTC</createdTime>
+<ownerDesignName>Contrato001</ownerDesignName>
+<engineerTo>
+<item key="C230432E-413D-9612-3BC4-BD2A359457B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dv" id="63BA7DE2-73BD-D0E9-B957-5EB686E373CC">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-14 03:36:31 UTC</createdTime>
+<ownerDesignName>Contrato001</ownerDesignName>
+<engineerTo>
+<item key="C230432E-413D-9612-3BC4-BD2A359457B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="F88CB7FB-111F-3AF6-8CA2-62DEF77EE250">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-14 03:34:36 UTC</createdTime>
+<ownerDesignName>Contrato001</ownerDesignName>
+<engineerTo>
+<item key="C230432E-413D-9612-3BC4-BD2A359457B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellido_paterno" id="B971C00F-7324-5651-7F79-C719BF91D0D1">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-14 03:36:57 UTC</createdTime>
+<ownerDesignName>Contrato001</ownerDesignName>
+<engineerTo>
+<item key="C230432E-413D-9612-3BC4-BD2A359457B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_area" id="B9CC81A5-D68F-22FB-8F9A-B89014C72015">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-14 03:44:00 UTC</createdTime>
+<ownerDesignName>Contrato001</ownerDesignName>
+<engineerTo>
+<item key="C230432E-413D-9612-3BC4-BD2A359457B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono" id="AF26F2AD-AB80-4879-13AB-FE75D3DC5F32">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-14 03:43:28 UTC</createdTime>
+<ownerDesignName>Contrato001</ownerDesignName>
+<engineerTo>
+<item key="C230432E-413D-9612-3BC4-BD2A359457B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="correo" id="D8A5757C-5DE9-EC73-DB66-0A655E441424">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-14 03:45:19 UTC</createdTime>
+<ownerDesignName>Contrato001</ownerDesignName>
+<engineerTo>
+<item key="C230432E-413D-9612-3BC4-BD2A359457B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="profesion" id="F742A8E2-650E-4DDF-907D-6E1E050F0F09">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-14 03:49:30 UTC</createdTime>
+<ownerDesignName>Contrato001</ownerDesignName>
+<engineerTo>
+<item key="C230432E-413D-9612-3BC4-BD2A359457B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nacionalidad" id="0E04CF8D-6617-F8AD-1297-A3554B34100A">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-14 03:46:20 UTC</createdTime>
+<ownerDesignName>Contrato001</ownerDesignName>
+<engineerTo>
+<item key="C230432E-413D-9612-3BC4-BD2A359457B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado_civil" id="00CD47A2-9498-80D2-40FF-C24B42A5D8F1">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-14 03:46:56 UTC</createdTime>
+<ownerDesignName>Contrato001</ownerDesignName>
+<engineerTo>
+<item key="C230432E-413D-9612-3BC4-BD2A359457B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_academia" id="3C82CF3D-0395-0469-450E-31320030D460">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-14 22:53:16 UTC</createdTime>
+<generatorID>CF8398DC-9D31-933F-AFB0-5E9ECE230272</generatorID>
+<ownerDesignName>Contrato001</ownerDesignName>
+<engineerTo>
+<item key="C230432E-413D-9612-3BC4-BD2A359457B4" value="true"/>
+</engineerTo>
+<referedAttribute>27DCA1E0-6AB1-8CC0-0762-971DAA3823D5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_persona" id="F3BE08B3-7063-2F92-7599-DB438EF5BC09">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-14 23:01:53 UTC</createdTime>
+<generatorID>A4CDA04E-4A51-8D3A-D8FE-0E55CB41DC62</generatorID>
+<ownerDesignName>Contrato001</ownerDesignName>
+<engineerTo>
+<item key="C230432E-413D-9612-3BC4-BD2A359457B4" value="true"/>
+</engineerTo>
+<referedAttribute>22A01987-6BAA-6278-2EDD-55E2EE18D10C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EA1DC11C-C183-E73C-90DE-F3D433A98BDE" name="Director PK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-14 03:34:27 UTC</createdTime>
+<ownerDesignName>Contrato001</ownerDesignName>
+<engineerTo>
+<item key="C230432E-413D-9612-3BC4-BD2A359457B4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>635378F6-42E2-D8F7-5EDC-BF7CAF74CAE4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

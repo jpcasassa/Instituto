@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E5095068-96CF-235A-0826-B01D24895A8A" name="Personas">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-19 23:49:29 UTC</createdTime>
+<ownerDesignName>zoo_final</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id persona" id="2ADAFFEC-6B80-E19E-FDA4-F7B4130CA180">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-19 23:49:37 UTC</createdTime>
+<ownerDesignName>zoo_final</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="33CF124F-1654-CE50-4817-5302C1243A2B">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-19 23:49:46 UTC</createdTime>
+<ownerDesignName>zoo_final</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="es acompanante" id="165CB976-F74C-56F9-8583-982C458A8CB8">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-20 00:04:53 UTC</createdTime>
+<ownerDesignName>zoo_final</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5C7DB4AE-DABB-57B2-3BA5-8A1AF059CA8F" name="Personas PK">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-19 23:49:45 UTC</createdTime>
+<ownerDesignName>zoo_final</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2ADAFFEC-6B80-E19E-FDA4-F7B4130CA180</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

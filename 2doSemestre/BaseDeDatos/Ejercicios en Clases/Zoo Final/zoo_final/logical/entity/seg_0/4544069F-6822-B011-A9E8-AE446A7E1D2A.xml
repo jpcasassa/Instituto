@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4544069F-6822-B011-A9E8-AE446A7E1D2A" name="Parques">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-19 23:41:22 UTC</createdTime>
+<ownerDesignName>zoo_final</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id parque" id="F8976669-D6B6-4697-EF37-5BDDD348A0B9">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-19 23:41:54 UTC</createdTime>
+<ownerDesignName>zoo_final</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="DAA2F988-314C-4F12-B77E-8069C28BD887">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-19 23:42:48 UTC</createdTime>
+<ownerDesignName>zoo_final</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id region" id="B077772B-E127-C8FF-B3B6-C8BDCCDCA3D9">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-22 00:01:30 UTC</createdTime>
+<generatorID>B805E9B3-8589-FA29-EACD-8278C15D3786</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<referedAttribute>E820B0F9-5630-CB65-2E45-F767452337E4</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="845A7988-CF32-C0E8-49D0-C0EF787E4D11" name="Parques PK">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-19 23:42:31 UTC</createdTime>
+<ownerDesignName>zoo_final</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F8976669-D6B6-4697-EF37-5BDDD348A0B9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

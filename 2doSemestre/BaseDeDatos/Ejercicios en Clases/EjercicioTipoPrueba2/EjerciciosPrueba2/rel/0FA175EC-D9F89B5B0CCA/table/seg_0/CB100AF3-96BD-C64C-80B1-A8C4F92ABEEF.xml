@@ -1,0 +1,181 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CB100AF3-96BD-C64C-80B1-A8C4F92ABEEF" name="Formularios">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-16 22:06:05 UTC</createdTime>
+<generatorID>AC114B13-23FC-55DD-5B88-57193533EB5C</generatorID>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_formulario" id="D4AF32D8-5884-1AEE-A1D2-A498C2690BFA">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-16 22:06:05 UTC</createdTime>
+<generatorID>DEC7C870-DAB8-2F90-B847-492C0E514FFF</generatorID>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="n_folio" id="698A91BA-0565-896F-1CF4-431331BA70DB">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-16 22:06:05 UTC</createdTime>
+<generatorID>711923E9-5C59-6FE5-549F-6A3EBCE6EB2F</generatorID>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="420437AC-F322-45CC-916B-E394128D3105">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-16 22:06:05 UTC</createdTime>
+<generatorID>E217B96A-0123-4E16-65EE-F642BB2D55FE</generatorID>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Directores_id_director" id="CE56C24E-87B7-B293-140F-5A1FA387940E">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-16 22:06:05 UTC</createdTime>
+<generatorID>EC370620-CBB4-144B-5953-96482E8D170E</generatorID>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6D250BFD-C40B-233F-29EC-094ABDB1847F" referredColumn="9C41A39A-B129-AC85-4ABE-AC41CBB91C8F"/>
+</associations>
+</Column>
+<Column name="Inversiones_id_inversion" id="2791C55A-518A-2D14-30AA-2BD08EF641BD">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-16 22:06:05 UTC</createdTime>
+<generatorID>FF8FEADC-DD08-7E53-5B38-A2C424EA1E5C</generatorID>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="16010F4D-9AD6-C4BC-786A-AEFEC4E08FB6" referredColumn="57FE44CC-805F-299C-0712-6549285DD4D9"/>
+</associations>
+</Column>
+<Column name="Academias_id_academia" id="8656B035-1848-BFFF-3765-A65D5A494E4E">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-16 22:06:05 UTC</createdTime>
+<generatorID>4B44AC31-9ECD-D8B7-046F-4B4EEB9C92F3</generatorID>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="26BC1EF8-DE9F-A277-C266-AE3B6D138195" referredColumn="1EDCF801-75B9-ADE2-99C4-A1E76457BC6F"/>
+</associations>
+</Column>
+<Column name="Insumos_id_insumo" id="ED7A030D-C859-4D60-22A3-A49C4B75A72A">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-16 22:06:05 UTC</createdTime>
+<generatorID>49376BFF-E43A-E77E-92C8-63946942BD33</generatorID>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="862F1DC8-0734-BF46-0C9D-3C56FF1FC43A" referredColumn="C7E5EF2C-0D63-F10E-3EEA-27D3EBFDBB3F"/>
+</associations>
+</Column>
+<Column name="firma" id="5FC1F3E9-F5A1-D9D5-5892-51B3A81C1A1F">
+<createdBy>Casassa</createdBy>
+<createdTime>2025-10-17 02:42:48 UTC</createdTime>
+<generatorID>FE4E90E1-91EA-A884-6285-552E7949A8F3</generatorID>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="49F427C8-AEA1-EADF-6BDF-76D28AAA94A3" name="Formularios_PK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-16 22:06:05 UTC</createdTime>
+<generatorID>2AFB8796-8FCD-DE8A-C080-E33172ACDC57</generatorID>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4AF32D8-5884-1AEE-A1D2-A498C2690BFA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="29CB3CA6-6A3A-4C3C-D5DE-879DDC855418" name="Formularios_Directores_FK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-16 22:06:05 UTC</createdTime>
+<generatorID>ED81F12A-B5D7-9EEC-4D3D-D5C61BD3F561</generatorID>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CE56C24E-87B7-B293-140F-5A1FA387940E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="17A6B385-BCB2-D5FB-9D33-027BBA48B20E" name="Formulario_Insumos_FK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-16 22:06:05 UTC</createdTime>
+<generatorID>8D73514B-D3E2-4D0C-1DC8-432602640AD6</generatorID>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED7A030D-C859-4D60-22A3-A49C4B75A72A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EE942929-1E1D-DABF-CAB8-FCC608A71F9B" name="Formularios_Inversiones_FK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-16 22:06:05 UTC</createdTime>
+<generatorID>9D64073C-B5AA-8D7A-9A66-B497F74E7EDB</generatorID>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2791C55A-518A-2D14-30AA-2BD08EF641BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="46F2CFA5-86CA-63A8-90F7-8F79EA5733CE" name="Formularios_Academias_FK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-16 22:06:05 UTC</createdTime>
+<generatorID>9088DC33-B483-DE69-3E4C-CCE0FA638CD3</generatorID>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8656B035-1848-BFFF-3765-A65D5A494E4E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

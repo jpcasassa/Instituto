@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Habitats Especies Habitats FK" directorySegmentName="seg_0" id="D53BC631-AB61-30F3-5ED7-64F3DA68BE27">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-20 00:51:56 UTC</createdTime>
+<ownerDesignName>zoo_final</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<sourcePk>F6B336C4-6FEA-5E5E-2315-78E01301E876</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>546753EC-771B-5CBE-0896-092F22FD040F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>92121858-8C46-A178-AEBA-877FB5597B44</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

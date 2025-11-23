@@ -1,0 +1,190 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E6B3F8D8-0FE9-506A-E597-E7BE688B6260" name="Profesores">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-16 22:06:05 UTC</createdTime>
+<generatorID>17DE6C2E-6005-7B13-5800-A620E8618F5E</generatorID>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_profesores" id="E3753039-5384-84F0-AA24-005DB38BF8C2">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-16 22:06:05 UTC</createdTime>
+<generatorID>E0922139-8017-DF56-D4AC-350CFF8610D6</generatorID>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="B0706790-51A5-DC51-1033-658DE874F38E">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-16 22:06:05 UTC</createdTime>
+<generatorID>DF1A584D-8422-E9B5-34C7-08224EA68D1D</generatorID>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="run" id="D6283009-29A0-2EDC-6DC5-34D7D187D8B0">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-16 22:06:05 UTC</createdTime>
+<generatorID>BAADD622-ED6F-6AA7-239E-E3B4E84A9B76</generatorID>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="edad" id="D3518200-285C-10A3-B556-252BC66298B4">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-16 22:06:05 UTC</createdTime>
+<generatorID>2C00BFDA-CE0B-E077-5196-5D1892D6BF2E</generatorID>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="C7F45DFE-E083-3D1F-E5B9-58155654F000">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-16 22:06:05 UTC</createdTime>
+<generatorID>963452BA-8FAC-A818-DCBF-976EFD2CEAF0</generatorID>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hrs_trabajadas" id="500DDE86-ECB2-D40D-D9BD-055C27DDF1C3">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-16 22:06:05 UTC</createdTime>
+<generatorID>DC4DB20E-30D5-56AA-C1A0-08CEC0FB8243</generatorID>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_hr" id="CC23CBFF-7BE5-9754-9FE0-4DBE14D7EAF2">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-16 22:06:05 UTC</createdTime>
+<generatorID>710D3752-93B9-4B99-520A-D16F415ED121</generatorID>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_contrato" id="DB76B479-D165-1372-D55E-046B8E16F3A7">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-16 22:06:05 UTC</createdTime>
+<generatorID>B6352045-5F65-EBAA-2866-C5F0E752B802</generatorID>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Contratos_id_contrato" id="6B86BFBA-FEE8-0921-1FD2-BBB96AF21FBD">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-16 22:06:05 UTC</createdTime>
+<generatorID>535050A6-38D5-571E-9A59-11C8FC610F97</generatorID>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1BFF438F-B48C-E5A8-5F74-2EFEDD57B384" referredColumn="729F14A6-CEA3-BBD9-68CF-B87968082CB3"/>
+</associations>
+</Column>
+<Column name="Comunas_id_comuna" id="EEAFD545-908C-B4CC-E413-AE0B949117D9">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-16 22:06:05 UTC</createdTime>
+<generatorID>B117CBB8-4E51-B3AE-20F5-3E2A5D026C95</generatorID>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AC760DDF-B576-688A-C17C-592978C682FB" referredColumn="AF77163F-8248-6F3B-8EA6-607AC369BB86"/>
+</associations>
+</Column>
+<Column name="dv" id="4CD76924-B9E2-C852-5B08-B964E8F9CF8F">
+<createdBy>Casassa</createdBy>
+<createdTime>2025-10-17 02:42:48 UTC</createdTime>
+<generatorID>BCE663FE-7B9A-DB66-D7FF-D53852AE4849</generatorID>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6A0789D4-A72B-ADBA-A602-A5F89AEA573E" name="Profesores_PK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-16 22:06:05 UTC</createdTime>
+<generatorID>332A829E-F51D-8A5F-DE96-D255689BD651</generatorID>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3753039-5384-84F0-AA24-005DB38BF8C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B6E9E936-534F-E876-AE59-7AF360FF7166" name="Profesores_Comunas_FK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-16 22:06:05 UTC</createdTime>
+<generatorID>21E18DD8-8160-4904-C098-2BA27A09BBEF</generatorID>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EEAFD545-908C-B4CC-E413-AE0B949117D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2FD99B58-80AC-A242-CC73-C7EB1ECB5521" name="Profesores_Contratos_FK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-16 22:06:05 UTC</createdTime>
+<generatorID>63FDAB92-B5A2-21ED-6DBE-C76D9E0A4EE6</generatorID>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B86BFBA-FEE8-0921-1FD2-BBB96AF21FBD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Cuidadores Especies Cuidadores FK" directorySegmentName="seg_0" id="EA566346-AD9B-6C4E-5554-C124F6474C35">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-27 00:01:00 UTC</createdTime>
+<ownerDesignName>zoo_final</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<sourcePk>77FCE0E2-3419-EB41-180E-C33050ADDF53</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AC7BCA45-3246-E33D-66D3-D6771BEEE58D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1096B2C4-E5E7-727C-F72C-7476481CD728</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

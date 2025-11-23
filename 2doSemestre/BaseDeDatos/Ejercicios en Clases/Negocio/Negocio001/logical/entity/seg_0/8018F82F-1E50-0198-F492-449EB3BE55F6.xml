@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8018F82F-1E50-0198-F492-449EB3BE55F6" name="Telefonos">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-09 22:47:59 UTC</createdTime>
+<ownerDesignName>Negocio001</ownerDesignName>
+<engineerTo>
+<item key="3F4108FC-2A74-F1EC-1342-500B20A4E12D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_telefono" id="FB9A2CBD-2595-3700-8F34-23543A4CC7CA">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-09 22:48:05 UTC</createdTime>
+<ownerDesignName>Negocio001</ownerDesignName>
+<engineerTo>
+<item key="3F4108FC-2A74-F1EC-1342-500B20A4E12D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero" id="00965405-14A0-F697-406B-AD86319F8E95">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-09 22:50:23 UTC</createdTime>
+<ownerDesignName>Negocio001</ownerDesignName>
+<engineerTo>
+<item key="3F4108FC-2A74-F1EC-1342-500B20A4E12D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_tipo_telefono" id="626748F3-B441-8070-E5D2-FFBB98454118">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-09 23:29:36 UTC</createdTime>
+<generatorID>216FE75F-AEF3-7A38-6458-721804D6A202</generatorID>
+<ownerDesignName>Negocio001</ownerDesignName>
+<engineerTo>
+<item key="3F4108FC-2A74-F1EC-1342-500B20A4E12D" value="true"/>
+</engineerTo>
+<referedAttribute>AC04F4CC-78E3-754D-423E-0BA7854B1768</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cliente" id="2A417417-2BA8-84B2-D062-B704188DE8DE">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-09 23:31:05 UTC</createdTime>
+<generatorID>628F0228-9F13-B19B-1341-BA34EC20D9C9</generatorID>
+<ownerDesignName>Negocio001</ownerDesignName>
+<engineerTo>
+<item key="3F4108FC-2A74-F1EC-1342-500B20A4E12D" value="true"/>
+</engineerTo>
+<referedAttribute>647FB181-E005-389E-67D8-B468F962405E</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7FEE5E77-0610-5877-C1DB-693AEE235C8D" name="Telefonos PK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-09 22:50:22 UTC</createdTime>
+<ownerDesignName>Negocio001</ownerDesignName>
+<engineerTo>
+<item key="3F4108FC-2A74-F1EC-1342-500B20A4E12D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FB9A2CBD-2595-3700-8F34-23543A4CC7CA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

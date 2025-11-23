@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BABB264C-08B6-D286-F3DD-0BF366A67B67" name="Regiones">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-07 23:01:23 UTC</createdTime>
+<ownerDesignName>Contrato_parcial</ownerDesignName>
+<engineerTo>
+<item key="2843F889-80D5-ED22-48BB-E95383CB9E46" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_region" id="5C3B894A-16BD-44EE-0EB4-AAE212EC5F13">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-07 23:01:28 UTC</createdTime>
+<ownerDesignName>Contrato_parcial</ownerDesignName>
+<engineerTo>
+<item key="2843F889-80D5-ED22-48BB-E95383CB9E46" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="0B07B9B1-A6F7-3E11-D12E-01EAB97B4AC3">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-07 23:01:47 UTC</createdTime>
+<ownerDesignName>Contrato_parcial</ownerDesignName>
+<engineerTo>
+<item key="2843F889-80D5-ED22-48BB-E95383CB9E46" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_ciudad" id="1CF7A069-74ED-290E-C467-146D33714612">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-07 23:23:45 UTC</createdTime>
+<generatorID>B84C74C8-B471-94BB-0494-C3A90F415FF9</generatorID>
+<ownerDesignName>Contrato_parcial</ownerDesignName>
+<engineerTo>
+<item key="2843F889-80D5-ED22-48BB-E95383CB9E46" value="true"/>
+</engineerTo>
+<referedAttribute>49601DF7-88CB-A0C8-595E-84C2DFDD4E1A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D943E4FC-F381-4EF6-1AAD-F8D6DC93A2DA" name="Regiones PK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-07 23:02:02 UTC</createdTime>
+<ownerDesignName>Contrato_parcial</ownerDesignName>
+<engineerTo>
+<item key="2843F889-80D5-ED22-48BB-E95383CB9E46" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5C3B894A-16BD-44EE-0EB4-AAE212EC5F13</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

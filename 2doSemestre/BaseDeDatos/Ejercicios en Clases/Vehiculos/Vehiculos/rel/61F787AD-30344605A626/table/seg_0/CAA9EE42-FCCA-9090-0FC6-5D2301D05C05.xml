@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CAA9EE42-FCCA-9090-0FC6-5D2301D05C05" name="Clientes">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-25 23:00:21 UTC</createdTime>
+<generatorID>D51E7552-9C3E-3818-B4BF-F1140D888FF5</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cliente" id="F7193E05-D0EC-2F37-9DB1-A1E7C7E587C1">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-25 23:00:21 UTC</createdTime>
+<generatorID>8009B012-DFD3-E8B3-3F4C-2B46B00F655C</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="F8C894BB-0504-E2C7-28A4-089FF648300E">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-25 23:00:21 UTC</createdTime>
+<generatorID>350884B9-F368-53CD-C1C8-2058FEEC5D0F</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Comunas_id_comunas" id="10DB3660-BE7B-6D13-7495-AB4C37B561DA">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-25 23:00:21 UTC</createdTime>
+<generatorID>7E6B8D9B-2304-9022-FA5B-3591916193B7</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B21C2B56-9F7D-8822-8E2F-EAFF57D85DDB" referredColumn="9AC37249-69F3-EE13-4C51-DD80CFA6BB1E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8184345C-FF0A-5497-2388-495F63D536CE" name="Clientes_PK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-25 23:00:21 UTC</createdTime>
+<generatorID>172999B5-60D0-3D8E-5038-EF8342AA5E80</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7193E05-D0EC-2F37-9DB1-A1E7C7E587C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C333802-FEC0-B4BC-F6C8-7537D7A338B0" name="Clientes_Comunas_FK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-25 23:00:21 UTC</createdTime>
+<generatorID>38FFE9AC-8DA4-9207-E4CE-508783130FFC</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10DB3660-BE7B-6D13-7495-AB4C37B561DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

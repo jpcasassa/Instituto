@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="16010F4D-9AD6-C4BC-786A-AEFEC4E08FB6" containerWithKeyObject="CB100AF3-96BD-C64C-80B1-A8C4F92ABEEF" localFKIndex="EE942929-1E1D-DABF-CAB8-FCC608A71F9B" name="Formularios_Inversiones_FK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-16 22:06:05 UTC</createdTime>
+<generatorID>9D64073C-B5AA-8D7A-9A66-B497F74E7EDB</generatorID>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<referredTableLongName>Inversiones</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CC265891-FB3F-2E5D-60DF-333945333639</referredTableID>
+<keyObject>08CFC719-38CF-EA18-6C6D-48306BC95936</keyObject>
+<referredKeyID>08CFC719-38CF-EA18-6C6D-48306BC95936</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_inversion</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

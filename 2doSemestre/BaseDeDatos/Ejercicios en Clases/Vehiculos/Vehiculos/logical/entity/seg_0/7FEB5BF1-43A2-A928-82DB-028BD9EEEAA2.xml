@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7FEB5BF1-43A2-A928-82DB-028BD9EEEAA2" name="Telefonos">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-09-09 22:40:04 UTC</createdTime>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="61F787AD-AFCC-A0BA-A6C8-30344605A626" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_telefono" id="A4E49BD0-85A9-03F2-DE31-92883988033A">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-09-09 22:40:11 UTC</createdTime>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="61F787AD-AFCC-A0BA-A6C8-30344605A626" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero" id="6CF782E7-8D0D-0594-354B-D00E501430D1">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-09-09 22:40:16 UTC</createdTime>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="61F787AD-AFCC-A0BA-A6C8-30344605A626" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cliente" id="202A40B0-F77E-2013-8337-4FD6A33A8EEE">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-09-09 22:42:20 UTC</createdTime>
+<generatorID>7DC31C84-93B2-1B0A-0C17-34014BE73FE7</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="61F787AD-AFCC-A0BA-A6C8-30344605A626" value="true"/>
+</engineerTo>
+<referedAttribute>8009B012-DFD3-E8B3-3F4C-2B46B00F655C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_tipo_telefono" id="AF6538D1-E532-8180-3D79-32F5EBBE347A">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-09-09 23:24:21 UTC</createdTime>
+<generatorID>791F4FB2-E902-6DB4-5941-670D86F2DAC4</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="61F787AD-AFCC-A0BA-A6C8-30344605A626" value="true"/>
+</engineerTo>
+<referedAttribute>AC249EAA-4474-1148-41C9-C8D4BF94D49C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7962DB0C-2D05-B1CF-8AEA-AB9895DEA74B" name="Telefonos PK">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-09-09 22:40:20 UTC</createdTime>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="61F787AD-AFCC-A0BA-A6C8-30344605A626" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A4E49BD0-85A9-03F2-DE31-92883988033A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

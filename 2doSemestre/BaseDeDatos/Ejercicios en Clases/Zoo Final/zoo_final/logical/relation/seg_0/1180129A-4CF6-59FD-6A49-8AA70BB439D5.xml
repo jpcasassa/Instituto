@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Habitats Tipo Vegatacion FK" directorySegmentName="seg_0" id="1180129A-4CF6-59FD-6A49-8AA70BB439D5">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:51:18 UTC</createdTime>
+<ownerDesignName>zoo_final</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<sourcePk>AA037552-52D6-EC0B-C0FC-D86221C3F648</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4F7BA835-B3AF-6E82-5972-923C93033C8A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>546753EC-771B-5CBE-0896-092F22FD040F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

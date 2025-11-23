@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2AD39BB0-55EE-A8C3-6509-B3D5AB9206A4" name="Vehiculos_Electricos">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-09-09 22:55:07 UTC</createdTime>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="61F787AD-AFCC-A0BA-A6C8-30344605A626" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_vehiculo_electrico" id="5FB91BEE-4D73-556E-6154-62C5A0A2F4F9">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-09-09 22:55:15 UTC</createdTime>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="61F787AD-AFCC-A0BA-A6C8-30344605A626" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_vehiculo" id="C386766D-E12D-9241-683D-4AE6C78A302E">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-09-09 22:57:07 UTC</createdTime>
+<generatorID>5ABD19FA-4AC4-92BA-A861-D53AFDA54365</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="61F787AD-AFCC-A0BA-A6C8-30344605A626" value="true"/>
+</engineerTo>
+<referedAttribute>80928DDB-7DFF-B81B-92B6-1854E9FC7A67</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F804D17C-AB59-6FBE-69D0-1010EC694041" name="Vehiculos_Electricos PK">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-09-09 22:55:30 UTC</createdTime>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="61F787AD-AFCC-A0BA-A6C8-30344605A626" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5FB91BEE-4D73-556E-6154-62C5A0A2F4F9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

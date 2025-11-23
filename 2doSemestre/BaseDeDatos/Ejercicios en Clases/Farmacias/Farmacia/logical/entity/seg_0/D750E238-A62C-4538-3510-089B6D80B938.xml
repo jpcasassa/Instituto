@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D750E238-A62C-4538-3510-089B6D80B938" name="Ciudades">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-08-28 23:17:25 UTC</createdTime>
+<ownerDesignName>Farmacia</ownerDesignName>
+<engineerTo>
+<item key="C7A76FCB-C9F2-F8A4-2CFB-13A5491DB15E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_ciudad" id="F04B7901-0C41-CD99-0673-AFDD58482F6C">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-08-28 23:17:31 UTC</createdTime>
+<ownerDesignName>Farmacia</ownerDesignName>
+<engineerTo>
+<item key="C7A76FCB-C9F2-F8A4-2CFB-13A5491DB15E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="684CC3FD-8D6F-5BF7-50BB-CC19FEEF0B5A">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-08-28 23:17:36 UTC</createdTime>
+<ownerDesignName>Farmacia</ownerDesignName>
+<engineerTo>
+<item key="C7A76FCB-C9F2-F8A4-2CFB-13A5491DB15E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="804422F6-2C4B-9FEE-0C76-DD62B4AF197D" name="Ciudades PK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-08-28 23:17:35 UTC</createdTime>
+<ownerDesignName>Farmacia</ownerDesignName>
+<engineerTo>
+<item key="C7A76FCB-C9F2-F8A4-2CFB-13A5491DB15E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F04B7901-0C41-CD99-0673-AFDD58482F6C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

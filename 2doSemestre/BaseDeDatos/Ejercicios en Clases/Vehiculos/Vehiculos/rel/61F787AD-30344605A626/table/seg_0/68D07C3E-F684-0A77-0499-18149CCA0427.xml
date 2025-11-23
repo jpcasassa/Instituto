@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="68D07C3E-F684-0A77-0499-18149CCA0427" name="Telefonos">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-25 23:00:21 UTC</createdTime>
+<generatorID>7FEB5BF1-43A2-A928-82DB-028BD9EEEAA2</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_telefono" id="1D5018D0-B56D-9CFD-2D3D-56CCC819FB91">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-25 23:00:21 UTC</createdTime>
+<generatorID>A4E49BD0-85A9-03F2-DE31-92883988033A</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero" id="2D7CD19E-3E47-E1F3-DE2D-AC812FB0B2BA">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-25 23:00:21 UTC</createdTime>
+<generatorID>6CF782E7-8D0D-0594-354B-D00E501430D1</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Clientes_id_cliente" id="11E36A8D-6658-9CE3-101E-8691EC1D2A76">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-25 23:00:21 UTC</createdTime>
+<generatorID>202A40B0-F77E-2013-8337-4FD6A33A8EEE</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="550D3D12-ACE0-5377-1CAF-C7432A78CF85" referredColumn="F7193E05-D0EC-2F37-9DB1-A1E7C7E587C1"/>
+</associations>
+</Column>
+<Column name="Tipo_telefono_id_tipo_telefono" id="4136DDC0-619E-A940-1438-6B1E732F0366">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-25 23:00:21 UTC</createdTime>
+<generatorID>AF6538D1-E532-8180-3D79-32F5EBBE347A</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="97323E2C-8D36-650F-C637-43C8C92EC3C0" referredColumn="71D8C807-3667-C342-7A9C-567B9723A5A2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0999AB02-FBFE-B7B4-F937-9D3803E3A838" name="Telefonos_PK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-25 23:00:21 UTC</createdTime>
+<generatorID>7962DB0C-2D05-B1CF-8AEA-AB9895DEA74B</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D5018D0-B56D-9CFD-2D3D-56CCC819FB91"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="85C0B6B8-CB95-94FE-8CC2-32AD21AFD997" name="Telefonos_Tipo_telefono_FK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-25 23:00:21 UTC</createdTime>
+<generatorID>791F4FB2-E902-6DB4-5941-670D86F2DAC4</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4136DDC0-619E-A940-1438-6B1E732F0366"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C775B4B4-4F12-CCA2-E3C9-3E0DBA3F3880" name="Telefonos_Clientes_FK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-25 23:00:21 UTC</createdTime>
+<generatorID>7DC31C84-93B2-1B0A-0C17-34014BE73FE7</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="11E36A8D-6658-9CE3-101E-8691EC1D2A76"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FC137D0A-7229-773F-1004-D324DD862F31" name="SUCURSAL">
+<createdBy>BilbaoLabs</createdBy>
+<createdTime>2024-02-29 19:14:55 UTC</createdTime>
+<ownerDesignName>spa_boutique</ownerDesignName>
+<engineerTo>
+<item key="8AA3C162-D1AA-82A5-7D71-ABF03733A398" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nombre" id="DFD15CE1-A697-57EB-EE41-B4D67B1C500D">
+<createdBy>BilbaoLabs</createdBy>
+<createdTime>2024-02-29 19:15:04 UTC</createdTime>
+<ownerDesignName>spa_boutique</ownerDesignName>
+<engineerTo>
+<item key="8AA3C162-D1AA-82A5-7D71-ABF03733A398" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="6927F59D-92C7-0F91-F387-87702B99C1ED">
+<createdBy>BilbaoLabs</createdBy>
+<createdTime>2024-02-29 19:15:06 UTC</createdTime>
+<ownerDesignName>spa_boutique</ownerDesignName>
+<engineerTo>
+<item key="8AA3C162-D1AA-82A5-7D71-ABF03733A398" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="comuna" id="CFF6567D-491C-F1AF-4CD4-D0A37AFFA274">
+<createdBy>BilbaoLabs</createdBy>
+<createdTime>2024-02-29 19:15:11 UTC</createdTime>
+<ownerDesignName>spa_boutique</ownerDesignName>
+<engineerTo>
+<item key="8AA3C162-D1AA-82A5-7D71-ABF03733A398" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ciudad" id="24CBCE61-D718-74A7-28CF-4E9ED41B217D">
+<createdBy>BilbaoLabs</createdBy>
+<createdTime>2024-02-29 19:15:15 UTC</createdTime>
+<ownerDesignName>spa_boutique</ownerDesignName>
+<engineerTo>
+<item key="8AA3C162-D1AA-82A5-7D71-ABF03733A398" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="515BC545-5ADB-EF76-7EF7-587D231E18ED" name="SUCURSAL PK">
+<createdBy>BilbaoLabs</createdBy>
+<createdTime>2024-02-29 19:15:37 UTC</createdTime>
+<ownerDesignName>spa_boutique</ownerDesignName>
+<engineerTo>
+<item key="8AA3C162-D1AA-82A5-7D71-ABF03733A398" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DFD15CE1-A697-57EB-EE41-B4D67B1C500D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

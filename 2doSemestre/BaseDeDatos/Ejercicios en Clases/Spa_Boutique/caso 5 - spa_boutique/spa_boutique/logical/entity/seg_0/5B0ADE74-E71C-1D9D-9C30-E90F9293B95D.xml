@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5B0ADE74-E71C-1D9D-9C30-E90F9293B95D" name="EMPLEADO">
+<createdBy>BilbaoLabs</createdBy>
+<createdTime>2024-02-29 19:16:14 UTC</createdTime>
+<ownerDesignName>spa_boutique</ownerDesignName>
+<engineerTo>
+<item key="8AA3C162-D1AA-82A5-7D71-ABF03733A398" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="run" id="10F00505-B499-258C-99B1-836B728EC12B">
+<createdBy>BilbaoLabs</createdBy>
+<createdTime>2024-02-29 19:17:26 UTC</createdTime>
+<ownerDesignName>spa_boutique</ownerDesignName>
+<engineerTo>
+<item key="8AA3C162-D1AA-82A5-7D71-ABF03733A398" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dv" id="D6C48E09-F0DF-E65E-8A71-00E50169843B">
+<createdBy>BilbaoLabs</createdBy>
+<createdTime>2024-02-29 19:17:31 UTC</createdTime>
+<ownerDesignName>spa_boutique</ownerDesignName>
+<engineerTo>
+<item key="8AA3C162-D1AA-82A5-7D71-ABF03733A398" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombres" id="135313DE-C5D4-E1D9-8F5B-74E365E784CA">
+<createdBy>BilbaoLabs</createdBy>
+<createdTime>2024-02-29 19:17:38 UTC</createdTime>
+<ownerDesignName>spa_boutique</ownerDesignName>
+<engineerTo>
+<item key="8AA3C162-D1AA-82A5-7D71-ABF03733A398" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellidos" id="68A94821-11ED-7273-3707-17CF05D2BFCB">
+<createdBy>BilbaoLabs</createdBy>
+<createdTime>2024-02-29 19:17:46 UTC</createdTime>
+<ownerDesignName>spa_boutique</ownerDesignName>
+<engineerTo>
+<item key="8AA3C162-D1AA-82A5-7D71-ABF03733A398" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_contrato" id="FC3AA68E-4C54-20F0-6743-8EC1BDCF675E">
+<createdBy>BilbaoLabs</createdBy>
+<createdTime>2024-02-29 19:17:55 UTC</createdTime>
+<ownerDesignName>spa_boutique</ownerDesignName>
+<engineerTo>
+<item key="8AA3C162-D1AA-82A5-7D71-ABF03733A398" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fono" id="CD600888-F29F-E554-A517-91F3B44A0222">
+<createdBy>BilbaoLabs</createdBy>
+<createdTime>2024-02-29 19:18:05 UTC</createdTime>
+<ownerDesignName>spa_boutique</ownerDesignName>
+<engineerTo>
+<item key="8AA3C162-D1AA-82A5-7D71-ABF03733A398" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_sucursal" id="C02BF991-79BA-1D51-B2C3-6E201C624788">
+<createdBy>BilbaoLabs</createdBy>
+<createdTime>2024-02-29 19:18:20 UTC</createdTime>
+<ownerDesignName>spa_boutique</ownerDesignName>
+<engineerTo>
+<item key="8AA3C162-D1AA-82A5-7D71-ABF03733A398" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="D3A29186-26EC-6A4A-1A59-BC9021101BDF">
+<createdBy>BilbaoLabs</createdBy>
+<createdTime>2024-02-29 19:29:13 UTC</createdTime>
+<generatorID>9B909EB2-3E9F-0C18-24B4-61DFCE5636BC</generatorID>
+<ownerDesignName>spa_boutique</ownerDesignName>
+<engineerTo>
+<item key="8AA3C162-D1AA-82A5-7D71-ABF03733A398" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>DFD15CE1-A697-57EB-EE41-B4D67B1C500D</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D3CA1F31-2DF2-88F8-8E1F-57B542237503" name="EMPLEADO PK">
+<createdBy>BilbaoLabs</createdBy>
+<createdTime>2024-02-29 19:17:29 UTC</createdTime>
+<ownerDesignName>spa_boutique</ownerDesignName>
+<engineerTo>
+<item key="8AA3C162-D1AA-82A5-7D71-ABF03733A398" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>10F00505-B499-258C-99B1-836B728EC12B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

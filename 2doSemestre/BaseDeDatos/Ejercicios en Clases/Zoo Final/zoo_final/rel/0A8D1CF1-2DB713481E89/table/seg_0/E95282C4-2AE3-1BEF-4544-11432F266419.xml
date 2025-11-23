@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E95282C4-2AE3-1BEF-4544-11432F266419" name="Fichas">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>DDE651AD-891A-8990-7939-4F5B2A4EFA8A</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_ficha" id="C9CC7028-6C6A-347B-7315-53990B312223">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>FCFF5018-01DD-2D01-EE6E-8773DEFB433C</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_ingreso" id="768192C0-536D-6A5F-A21F-F42A4D2FFCF4">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>9E71C7FE-50BC-A82D-91AD-EE3D2B9A6FB1</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado_general" id="2AD142AB-74DA-BEAE-26DE-BE06313BB89C">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>3A76A8D8-67FC-7A0D-7EDB-FABAB49FD2A6</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="peso" id="2F8D531A-7B47-7CB2-E0B5-1A6F6FD30344">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>43C584D5-F6EC-C4B2-01A4-19EE95C50010</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Especies_id_especie" id="947B096E-F280-5A69-809E-F2D0CB1947C8">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>063D11ED-F4E5-90ED-65E9-C49E087AC162</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FE18C8E1-BD2B-10D7-2C85-B6BCBF199966" referredColumn="AB4AB18C-5699-619B-D11A-EF5E38BC4BE6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E9BF0944-F8F7-772C-7B73-7A5DAC38E1F6" name="Fichas_PK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>33917A61-CDC6-1E91-17E3-B64801AEFBB7</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9CC7028-6C6A-347B-7315-53990B312223"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4F43F4E7-18FB-3107-5677-970F5BF2F653" name="Fichas_Especies_FK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>EE96A9F3-E114-2A29-ADEB-0DEB6D776ADE</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="947B096E-F280-5A69-809E-F2D0CB1947C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

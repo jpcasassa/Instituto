@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CBC9E9F9-68D0-3FBD-B921-8E3E34740035" containerWithKeyObject="13454046-2097-390E-CD4B-BA152DBF0A0F" localFKIndex="170DD6F6-EB17-A5D1-6F4E-8BA991921DB4" name="Cuidadores_Especies_Cuidadores_FK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>EA566346-AD9B-6C4E-5554-C124F6474C35</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<referredTableLongName>Cuidadores</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D3168A1F-690F-ACEF-1E34-FB8292556370</referredTableID>
+<keyObject>668438B9-DDC7-985E-8380-C29643945100</keyObject>
+<referredKeyID>668438B9-DDC7-985E-8380-C29643945100</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_cuidador</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="993D2F5F-8784-7652-8470-234CFDB966BF" name="Empresas">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-09-09 23:12:45 UTC</createdTime>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="61F787AD-AFCC-A0BA-A6C8-30344605A626" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_empresa" id="CBA594E8-0DE3-B455-E39B-F6DC0B99A8C9">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-09-09 23:12:53 UTC</createdTime>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="61F787AD-AFCC-A0BA-A6C8-30344605A626" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="razon_social" id="A1EB5768-D316-061C-85BF-094B853EEAB0">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-09-09 23:12:59 UTC</createdTime>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="61F787AD-AFCC-A0BA-A6C8-30344605A626" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_comunas" id="F5254938-0FA6-1054-DFBE-1381220533C3">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-09-09 23:13:12 UTC</createdTime>
+<generatorID>DEEC58DD-8E4E-C5E4-3892-414049354F9B</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="61F787AD-AFCC-A0BA-A6C8-30344605A626" value="true"/>
+</engineerTo>
+<referedAttribute>D6BC5937-88E8-BC1E-FDCC-BA6E95CD9718</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3C9859B7-780E-3BE4-CD88-D7D0CCCFBA6E" name="Empresas PK">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-09-09 23:12:58 UTC</createdTime>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="61F787AD-AFCC-A0BA-A6C8-30344605A626" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CBA594E8-0DE3-B455-E39B-F6DC0B99A8C9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

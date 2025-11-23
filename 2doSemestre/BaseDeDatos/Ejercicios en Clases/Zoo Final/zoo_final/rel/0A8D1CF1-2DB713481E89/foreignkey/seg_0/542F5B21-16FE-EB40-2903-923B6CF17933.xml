@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="542F5B21-16FE-EB40-2903-923B6CF17933" containerWithKeyObject="C832232B-787A-4344-3EDB-13CA478CA084" localFKIndex="202A28C7-DEA0-9566-84AC-608F858AFF0D" name="Parques_Regiones_FK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>B805E9B3-8589-FA29-EACD-8278C15D3786</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<referredTableLongName>Regiones</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>58649D65-FB6C-7282-FDBC-AF6747911570</referredTableID>
+<keyObject>AF3045D4-79E2-1DC6-137A-92CDC3034B60</keyObject>
+<referredKeyID>AF3045D4-79E2-1DC6-137A-92CDC3034B60</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_region</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

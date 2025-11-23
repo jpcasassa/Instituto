@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A16F8B70-BC5B-938E-26D1-9C4C231EF39A" containerWithKeyObject="A89B9080-E657-DCBC-AE43-CFC0221A4B02" localFKIndex="01574ADF-10EB-7BA2-D18F-393AAC3F46AC" name="Habitats_Tipo_Vegatacion_FK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>1180129A-4CF6-59FD-6A49-8AA70BB439D5</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<referredTableLongName>Tipo_Vegatacion</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>735720FB-7FD7-3822-3064-885ED2D230C0</referredTableID>
+<keyObject>3CB25167-A0FB-1768-2A8C-A07B292FD452</keyObject>
+<referredKeyID>3CB25167-A0FB-1768-2A8C-A07B292FD452</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_tipo_vegetacion</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="45403E70-0B24-F809-5FE4-963D3C8B0DB3" name="Representantes Legales">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-14 22:42:07 UTC</createdTime>
+<ownerDesignName>Contrato001</ownerDesignName>
+<engineerTo>
+<item key="C230432E-413D-9612-3BC4-BD2A359457B4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_representante" id="59E57B63-C4AA-3C1B-A2EE-46AD2B43F3C3">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-14 22:42:22 UTC</createdTime>
+<ownerDesignName>Contrato001</ownerDesignName>
+<engineerTo>
+<item key="C230432E-413D-9612-3BC4-BD2A359457B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="0A33D841-D12F-315A-9BA0-8D79A3D0C737">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-14 22:42:37 UTC</createdTime>
+<ownerDesignName>Contrato001</ownerDesignName>
+<engineerTo>
+<item key="C230432E-413D-9612-3BC4-BD2A359457B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_persona" id="52B1705B-B961-CBA3-08E7-100E8C2A5382">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-14 23:02:37 UTC</createdTime>
+<generatorID>EA6984C5-A538-9E87-F74C-BF2715A031DF</generatorID>
+<ownerDesignName>Contrato001</ownerDesignName>
+<engineerTo>
+<item key="C230432E-413D-9612-3BC4-BD2A359457B4" value="true"/>
+</engineerTo>
+<referedAttribute>22A01987-6BAA-6278-2EDD-55E2EE18D10C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_contrato" id="BAEE2821-9441-AA70-1689-85F6A07A94D9">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-14 23:03:12 UTC</createdTime>
+<generatorID>CDFBF35C-CC4B-85DF-50CF-514D0E098C9E</generatorID>
+<ownerDesignName>Contrato001</ownerDesignName>
+<engineerTo>
+<item key="C230432E-413D-9612-3BC4-BD2A359457B4" value="true"/>
+</engineerTo>
+<referedAttribute>608BB65B-9BC3-0B46-5DC9-96D727FCF239</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_firma" id="C5F99680-8B57-B735-AE00-404E561D1B98">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-14 23:03:12 UTC</createdTime>
+<generatorID>CDFBF35C-CC4B-85DF-50CF-514D0E098C9E</generatorID>
+<ownerDesignName>Contrato001</ownerDesignName>
+<engineerTo>
+<item key="C230432E-413D-9612-3BC4-BD2A359457B4" value="true"/>
+</engineerTo>
+<referedAttribute>D37533AA-A9C8-AC57-F4FA-EB4EB8A50CD4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_academia" id="0E2E584D-CA10-D2C7-7E39-9A0B78D4331A">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-14 23:04:34 UTC</createdTime>
+<generatorID>29732643-D73C-73E0-75F9-99F36A185D72</generatorID>
+<ownerDesignName>Contrato001</ownerDesignName>
+<engineerTo>
+<item key="C230432E-413D-9612-3BC4-BD2A359457B4" value="true"/>
+</engineerTo>
+<referedAttribute>27DCA1E0-6AB1-8CC0-0762-971DAA3823D5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="198FE816-A878-187E-B9AF-F6EFEDF7C0B7" name="Representantes Legales PK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-14 22:42:36 UTC</createdTime>
+<ownerDesignName>Contrato001</ownerDesignName>
+<engineerTo>
+<item key="C230432E-413D-9612-3BC4-BD2A359457B4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>59E57B63-C4AA-3C1B-A2EE-46AD2B43F3C3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

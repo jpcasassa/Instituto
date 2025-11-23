@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Trabajadores Contrato FK" directorySegmentName="seg_0" id="63FDAB92-B5A2-21ED-6DBE-C76D9E0A4EE6">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-16 21:48:43 UTC</createdTime>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<engineerTo>
+<item key="0FA175EC-4E90-EAB6-9D5C-D9F89B5B0CCA" value="true"/>
+</engineerTo>
+<sourcePk>F71CEAC3-39DC-CAA3-61B7-6A591DFC75EF</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AB35E3C6-D9E2-46A8-2C3B-63D329EF702E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>17DE6C2E-6005-7B13-5800-A620E8618F5E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AC7BCA45-3246-E33D-66D3-D6771BEEE58D" name="Cuidadores">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-20 00:37:27 UTC</createdTime>
+<ownerDesignName>zoo_parte_2</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_cuidador" id="728B2100-B019-2AFD-E892-AB17B6F1C555">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-20 00:37:31 UTC</createdTime>
+<ownerDesignName>zoo_parte_2</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="637E3FDF-7740-DA98-2DF4-5795BF2B10AD">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-20 00:37:36 UTC</createdTime>
+<ownerDesignName>zoo_parte_2</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="primer_apellido" id="4395E1EA-D0A6-CBDF-AC51-16D3EDB4DA66">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-20 00:38:10 UTC</createdTime>
+<ownerDesignName>zoo_parte_2</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="segundo_apellido" id="629DD6C3-F2AC-3EB6-A8CC-E8C809B7BA5D">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-20 00:38:24 UTC</createdTime>
+<ownerDesignName>zoo_parte_2</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_ingreso" id="E09177E7-7A0B-957B-8108-129C452FB901">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-20 00:38:34 UTC</createdTime>
+<ownerDesignName>zoo_parte_2</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono" id="8D86BA7C-AB22-F489-1AFD-F0BF814D49EB">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-21 23:42:40 UTC</createdTime>
+<ownerDesignName>zoo_parte_2</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="77FCE0E2-3419-EB41-180E-C33050ADDF53" name="Cuidadores PK">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-20 00:37:42 UTC</createdTime>
+<ownerDesignName>zoo_parte_2</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>728B2100-B019-2AFD-E892-AB17B6F1C555</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

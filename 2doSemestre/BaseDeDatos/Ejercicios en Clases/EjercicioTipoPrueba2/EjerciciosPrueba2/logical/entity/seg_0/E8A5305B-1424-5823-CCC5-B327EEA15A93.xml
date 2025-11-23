@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E8A5305B-1424-5823-CCC5-B327EEA15A93" name="Regiones">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-16 21:40:51 UTC</createdTime>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<engineerTo>
+<item key="0FA175EC-4E90-EAB6-9D5C-D9F89B5B0CCA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_region" id="6508E2A0-D611-9738-2749-7CC48E4D1C67">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-16 21:41:26 UTC</createdTime>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<engineerTo>
+<item key="0FA175EC-4E90-EAB6-9D5C-D9F89B5B0CCA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="BB2853EE-3A4C-8270-DAD0-41F87028A6C7">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-16 21:41:46 UTC</createdTime>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<engineerTo>
+<item key="0FA175EC-4E90-EAB6-9D5C-D9F89B5B0CCA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="00262E2F-323D-22A6-114A-00025CFE4989" name="Regiones PK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-16 21:41:44 UTC</createdTime>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<engineerTo>
+<item key="0FA175EC-4E90-EAB6-9D5C-D9F89B5B0CCA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6508E2A0-D611-9738-2749-7CC48E4D1C67</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

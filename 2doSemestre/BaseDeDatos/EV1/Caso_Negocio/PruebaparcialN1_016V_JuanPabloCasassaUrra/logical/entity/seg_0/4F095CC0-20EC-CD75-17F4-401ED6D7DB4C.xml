@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4F095CC0-20EC-CD75-17F4-401ED6D7DB4C" name="Docente_Curso_Asignatura">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-12 00:58:40 UTC</createdTime>
+<ownerDesignName>PruebaparcialN1_016V_JuanPabloCasassaUrra</ownerDesignName>
+<engineerTo>
+<item key="18D7BD2B-1603-26D9-85A8-731FD4FC53AE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_docente_curso_asignatura" id="F27D51D1-72A4-49D7-21E1-D8BBD049B804">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-12 01:17:37 UTC</createdTime>
+<ownerDesignName>PruebaparcialN1_016V_JuanPabloCasassaUrra</ownerDesignName>
+<engineerTo>
+<item key="18D7BD2B-1603-26D9-85A8-731FD4FC53AE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_curso" id="6CC2C037-89E4-9807-ED5D-FD4049FC3C44">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-12 01:02:36 UTC</createdTime>
+<generatorID>20F41BD9-4A8B-F211-1748-6C91EB74B1EA</generatorID>
+<ownerDesignName>PruebaparcialN1_016V_JuanPabloCasassaUrra</ownerDesignName>
+<engineerTo>
+<item key="18D7BD2B-1603-26D9-85A8-731FD4FC53AE" value="true"/>
+</engineerTo>
+<referedAttribute>80C99803-704E-3DC6-7738-895CF82C9F82</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut_usuario" id="0C0EEA6F-5ABE-91B4-02FE-A4D373B49AE2">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-12 01:03:27 UTC</createdTime>
+<generatorID>CA727502-1215-D053-AD77-4E0E13EB652E</generatorID>
+<ownerDesignName>PruebaparcialN1_016V_JuanPabloCasassaUrra</ownerDesignName>
+<engineerTo>
+<item key="18D7BD2B-1603-26D9-85A8-731FD4FC53AE" value="true"/>
+</engineerTo>
+<referedAttribute>BC232469-0793-CF15-7939-1C1C833FD276</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_docente" id="B23BAF39-C196-8186-F3DD-37FF7ABB9BC3">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-12 01:14:43 UTC</createdTime>
+<generatorID>CA727502-1215-D053-AD77-4E0E13EB652E</generatorID>
+<ownerDesignName>PruebaparcialN1_016V_JuanPabloCasassaUrra</ownerDesignName>
+<engineerTo>
+<item key="18D7BD2B-1603-26D9-85A8-731FD4FC53AE" value="true"/>
+</engineerTo>
+<referedAttribute>DDCE44E4-8EFD-B6E7-FF60-15FDAD7AFBEF</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_asignatura" id="7E24816C-76CB-F5A5-3C63-CE51B2763EA5">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-12 01:30:57 UTC</createdTime>
+<generatorID>4B83D22C-6246-6EBD-E453-4F34520F485C</generatorID>
+<ownerDesignName>PruebaparcialN1_016V_JuanPabloCasassaUrra</ownerDesignName>
+<engineerTo>
+<item key="18D7BD2B-1603-26D9-85A8-731FD4FC53AE" value="true"/>
+</engineerTo>
+<referedAttribute>D3EC7B15-2119-0227-351C-D4AC784C8462</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="808FC87E-3A12-D114-79BC-BB64EAB5666C" name="Docente_Curso PK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-12 01:17:47 UTC</createdTime>
+<ownerDesignName>PruebaparcialN1_016V_JuanPabloCasassaUrra</ownerDesignName>
+<engineerTo>
+<item key="18D7BD2B-1603-26D9-85A8-731FD4FC53AE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F27D51D1-72A4-49D7-21E1-D8BBD049B804</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

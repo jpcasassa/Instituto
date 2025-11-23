@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C3BFD129-23AA-2E8C-9434-EDA11DF5B7C5" name="Persona Visita">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-08-27 00:04:48 UTC</createdTime>
+<ownerDesignName>zoo_parte_2</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_persona_visita" id="B2FB8E63-F0D5-8A69-6271-4F8B98F7EC6B">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-08-27 00:04:55 UTC</createdTime>
+<ownerDesignName>zoo_parte_2</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_visitante" id="83833AC0-7DF4-3978-9CD6-0A5703E80DDD">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-08-27 00:06:27 UTC</createdTime>
+<generatorID>992EBC2B-BB1B-52F9-A9EC-EF5321D9CA84</generatorID>
+<ownerDesignName>zoo_parte_2</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<referedAttribute>FA73B181-2DD4-F255-F828-173E2564ED76</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_persona" id="8A3D875A-FB53-3807-40D8-91814732985A">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-08-27 00:06:35 UTC</createdTime>
+<generatorID>9835ADFD-03B5-2CB6-4609-452D2B7D42E2</generatorID>
+<ownerDesignName>zoo_parte_2</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<referedAttribute>2ADAFFEC-6B80-E19E-FDA4-F7B4130CA180</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="10B5B270-15D1-B08A-5562-D483535D210E" name="Persona Visita PK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-08-27 00:05:04 UTC</createdTime>
+<ownerDesignName>zoo_parte_2</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B2FB8E63-F0D5-8A69-6271-4F8B98F7EC6B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

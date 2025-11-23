@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A1D6C1CD-3F9E-2A23-7C41-0AF2B9D9D00F" name="Asignaturas">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-12 00:07:00 UTC</createdTime>
+<ownerDesignName>PruebaparcialN1_016V_JuanPabloCasassaUrra</ownerDesignName>
+<engineerTo>
+<item key="18D7BD2B-1603-26D9-85A8-731FD4FC53AE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_asignatura" id="D3EC7B15-2119-0227-351C-D4AC784C8462">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-12 00:07:13 UTC</createdTime>
+<ownerDesignName>PruebaparcialN1_016V_JuanPabloCasassaUrra</ownerDesignName>
+<engineerTo>
+<item key="18D7BD2B-1603-26D9-85A8-731FD4FC53AE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="CE1055EC-B6AD-E6D6-1BD2-778AD8C666F9">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-12 00:07:24 UTC</createdTime>
+<ownerDesignName>PruebaparcialN1_016V_JuanPabloCasassaUrra</ownerDesignName>
+<engineerTo>
+<item key="18D7BD2B-1603-26D9-85A8-731FD4FC53AE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_curso" id="4C522AC4-8080-7228-D554-2BBEAD529556">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-12 00:57:27 UTC</createdTime>
+<generatorID>00FC1CB6-40BA-A325-268B-E36118CC95DE</generatorID>
+<ownerDesignName>PruebaparcialN1_016V_JuanPabloCasassaUrra</ownerDesignName>
+<engineerTo>
+<item key="18D7BD2B-1603-26D9-85A8-731FD4FC53AE" value="true"/>
+</engineerTo>
+<referedAttribute>80C99803-704E-3DC6-7738-895CF82C9F82</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9C0683D9-433F-99F4-AF9D-4488CD23A2DF" name="Asignaturas PK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-12 00:07:22 UTC</createdTime>
+<ownerDesignName>PruebaparcialN1_016V_JuanPabloCasassaUrra</ownerDesignName>
+<engineerTo>
+<item key="18D7BD2B-1603-26D9-85A8-731FD4FC53AE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D3EC7B15-2119-0227-351C-D4AC784C8462</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

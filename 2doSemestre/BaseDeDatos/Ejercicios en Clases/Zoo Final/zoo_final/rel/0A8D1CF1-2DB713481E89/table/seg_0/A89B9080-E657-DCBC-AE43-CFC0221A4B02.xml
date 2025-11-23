@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A89B9080-E657-DCBC-AE43-CFC0221A4B02" name="Habitats">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>546753EC-771B-5CBE-0896-092F22FD040F</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_habitat" id="C90D6371-BA38-E81C-8AD5-FF635C1040B6">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>57FA9A16-3A0F-1684-E7B2-C3FFBB42AD43</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="7C374A85-89C5-5862-BEA9-B31ED335F688">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>A148CFA0-DCDC-1C4A-843F-E4F7958E86F2</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Continentes_id_continente" id="6C2B453A-11F2-33D5-158E-D9E75AD663FA">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>93C5C2D6-DCA1-A524-7402-AC26A5DFD1A1</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="03610C90-501F-B80A-68AE-8F929FFEA2A3" referredColumn="A278D196-70F2-8D5D-2609-BF88DFE8409A"/>
+</associations>
+</Column>
+<Column name="Clima_id_clima" id="955EA54A-B135-51E8-FEBE-7CC4804D8249">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>29C9ECA6-52FB-E000-2423-69D714E7C4C9</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3D34EF9D-834A-6CE8-BEE8-E5B795D527ED" referredColumn="80217792-C25A-7D83-B1AB-D62276AFE028"/>
+</associations>
+</Column>
+<Column name="Tipo_Vegatacion_id_tipo_vegetacion" id="1C8E66E3-5710-6FC3-570F-8EF8F901F0BB">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>EE3687F5-22F2-49A9-2987-B0A13BE76872</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A16F8B70-BC5B-938E-26D1-9C4C231EF39A" referredColumn="B40C7159-217C-7B8B-A757-18E312723DA1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2F480AEE-87FA-1D2C-6FD3-C3E0F03DA91E" name="Habitats_PK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>F6B336C4-6FEA-5E5E-2315-78E01301E876</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C90D6371-BA38-E81C-8AD5-FF635C1040B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D0C6B350-D395-1FDA-1F55-03D1D712939E" name="Habitats_Continentes_FK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>FB8873E8-251E-8D9E-9036-F4AE1FAD0A70</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C2B453A-11F2-33D5-158E-D9E75AD663FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="04907099-C97F-E703-E5B8-60EC9D35CB16" name="Habitats_Clima_FK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>8A2C3D27-DBC3-A4BB-F7C5-48FCAED80078</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="955EA54A-B135-51E8-FEBE-7CC4804D8249"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="01574ADF-10EB-7BA2-D18F-393AAC3F46AC" name="Habitats_Tipo_Vegatacion_FK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>1180129A-4CF6-59FD-6A49-8AA70BB439D5</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C8E66E3-5710-6FC3-570F-8EF8F901F0BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

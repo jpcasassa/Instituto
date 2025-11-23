@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B1B472FD-A925-68BD-760B-9AB238F50423" name="Profesion_Profesor">
+<createdBy>Casassa</createdBy>
+<createdTime>2025-10-17 02:35:34 UTC</createdTime>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<engineerTo>
+<item key="0FA175EC-4E90-EAB6-9D5C-D9F89B5B0CCA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_profesores" id="F0A2DE3E-BF13-9554-478F-C19F88AA2976">
+<createdBy>Casassa</createdBy>
+<createdTime>2025-10-17 02:36:08 UTC</createdTime>
+<generatorID>57CAD437-3A30-F235-F303-8C24033B7B10</generatorID>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<engineerTo>
+<item key="0FA175EC-4E90-EAB6-9D5C-D9F89B5B0CCA" value="true"/>
+</engineerTo>
+<referedAttribute>E0922139-8017-DF56-D4AC-350CFF8610D6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_profesion" id="D6A2286C-73DE-6D81-C1FC-6FDDCB0EAB42">
+<createdBy>Casassa</createdBy>
+<createdTime>2025-10-17 02:36:13 UTC</createdTime>
+<generatorID>2DC148DD-5C5C-0A03-CFD4-58F5E9689237</generatorID>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<engineerTo>
+<item key="0FA175EC-4E90-EAB6-9D5C-D9F89B5B0CCA" value="true"/>
+</engineerTo>
+<referedAttribute>B5AE5604-5929-3230-33FD-E5C12A36E4BF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

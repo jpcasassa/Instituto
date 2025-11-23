@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A3F58B35-4AB4-7571-7884-A4B49E8A295C" name="Tipos_Contrato">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-10-01 22:39:27 UTC</createdTime>
+<ownerDesignName>spa_boutique</ownerDesignName>
+<engineerTo>
+<item key="8AA3C162-D1AA-82A5-7D71-ABF03733A398" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_tipo_contrato" id="0ED0BAE1-2F88-843E-6E15-3D695A40DAEC">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-10-01 22:39:49 UTC</createdTime>
+<ownerDesignName>spa_boutique</ownerDesignName>
+<engineerTo>
+<item key="8AA3C162-D1AA-82A5-7D71-ABF03733A398" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="92500589-6CA8-89E3-3036-A558D5F0B95D">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-10-01 22:40:04 UTC</createdTime>
+<ownerDesignName>spa_boutique</ownerDesignName>
+<engineerTo>
+<item key="8AA3C162-D1AA-82A5-7D71-ABF03733A398" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9AF444AA-95FF-B06C-F730-F479811DA778" name="Tipos_Contrato PK">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-10-01 22:40:03 UTC</createdTime>
+<ownerDesignName>spa_boutique</ownerDesignName>
+<engineerTo>
+<item key="8AA3C162-D1AA-82A5-7D71-ABF03733A398" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0ED0BAE1-2F88-843E-6E15-3D695A40DAEC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

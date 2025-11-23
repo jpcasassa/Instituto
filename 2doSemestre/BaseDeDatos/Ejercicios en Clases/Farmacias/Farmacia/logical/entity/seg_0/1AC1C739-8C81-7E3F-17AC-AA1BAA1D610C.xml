@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1AC1C739-8C81-7E3F-17AC-AA1BAA1D610C" name="Solicitudes">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:27:19 UTC</createdTime>
+<ownerDesignName>Farmacia</ownerDesignName>
+<engineerTo>
+<item key="C7A76FCB-C9F2-F8A4-2CFB-13A5491DB15E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_Solicitud" id="0742AD8A-ECA6-3CF3-EBAF-5D5035980C20">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:27:26 UTC</createdTime>
+<ownerDesignName>Farmacia</ownerDesignName>
+<engineerTo>
+<item key="C7A76FCB-C9F2-F8A4-2CFB-13A5491DB15E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo" id="78E82B3D-9E58-7B10-55CA-4370A1EF7284">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:27:32 UTC</createdTime>
+<ownerDesignName>Farmacia</ownerDesignName>
+<engineerTo>
+<item key="C7A76FCB-C9F2-F8A4-2CFB-13A5491DB15E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha" id="4E4CFF42-FE80-CFA6-B286-185C2B7AFE09">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:33:38 UTC</createdTime>
+<ownerDesignName>Farmacia</ownerDesignName>
+<engineerTo>
+<item key="C7A76FCB-C9F2-F8A4-2CFB-13A5491DB15E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5FF5FB68-6061-93DD-DE61-34AEB8E4551C" name="Solicitudes PK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:27:53 UTC</createdTime>
+<ownerDesignName>Farmacia</ownerDesignName>
+<engineerTo>
+<item key="C7A76FCB-C9F2-F8A4-2CFB-13A5491DB15E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0742AD8A-ECA6-3CF3-EBAF-5D5035980C20</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

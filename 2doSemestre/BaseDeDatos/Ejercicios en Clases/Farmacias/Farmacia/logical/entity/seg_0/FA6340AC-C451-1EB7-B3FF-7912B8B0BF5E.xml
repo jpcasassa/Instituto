@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FA6340AC-C451-1EB7-B3FF-7912B8B0BF5E" name="Detalle_Factura">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:30:55 UTC</createdTime>
+<ownerDesignName>Farmacia</ownerDesignName>
+<engineerTo>
+<item key="C7A76FCB-C9F2-F8A4-2CFB-13A5491DB15E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_detalle_factura" id="C6CD2155-CEF9-55F5-BE5B-016ABD5FF6E5">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:30:55 UTC</createdTime>
+<ownerDesignName>Farmacia</ownerDesignName>
+<engineerTo>
+<item key="C7A76FCB-C9F2-F8A4-2CFB-13A5491DB15E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="total_productos" id="DEA7D795-3F5A-3A0B-6217-8B86B84E22BC">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:30:55 UTC</createdTime>
+<ownerDesignName>Farmacia</ownerDesignName>
+<engineerTo>
+<item key="C7A76FCB-C9F2-F8A4-2CFB-13A5491DB15E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor_productos" id="0DF98CF2-010A-37F3-54E1-F9A59FE8CB2C">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:30:55 UTC</createdTime>
+<ownerDesignName>Farmacia</ownerDesignName>
+<engineerTo>
+<item key="C7A76FCB-C9F2-F8A4-2CFB-13A5491DB15E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="total" id="9A123599-49D8-81B2-E176-9AD8093790A7">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:30:55 UTC</createdTime>
+<ownerDesignName>Farmacia</ownerDesignName>
+<engineerTo>
+<item key="C7A76FCB-C9F2-F8A4-2CFB-13A5491DB15E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5B7077BC-DE7E-4E7D-27EC-A8C60ECCCC31" name="Detalle_Boleta PK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:30:55 UTC</createdTime>
+<ownerDesignName>Farmacia</ownerDesignName>
+<engineerTo>
+<item key="C7A76FCB-C9F2-F8A4-2CFB-13A5491DB15E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C6CD2155-CEF9-55F5-BE5B-016ABD5FF6E5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

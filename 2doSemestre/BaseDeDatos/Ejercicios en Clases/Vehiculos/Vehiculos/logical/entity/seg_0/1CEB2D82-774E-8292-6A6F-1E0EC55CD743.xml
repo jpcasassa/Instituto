@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1CEB2D82-774E-8292-6A6F-1E0EC55CD743" name="Arriendo_Vehiculo">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-25 22:53:14 UTC</createdTime>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="61F787AD-AFCC-A0BA-A6C8-30344605A626" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_arriendo_vehiculo" id="6B691D3C-5BE5-04BC-0279-D9E9841D31D2">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-25 22:53:33 UTC</createdTime>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="61F787AD-AFCC-A0BA-A6C8-30344605A626" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_arriendo" id="653C25A6-F5C6-6241-3E9C-C2764C38E406">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-25 22:59:01 UTC</createdTime>
+<generatorID>B784669F-EB28-E90C-0AC3-459DCDAB36EC</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="61F787AD-AFCC-A0BA-A6C8-30344605A626" value="true"/>
+</engineerTo>
+<referedAttribute>84CA7B1C-4706-7EA6-2E9C-B777E23E4999</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_vehiculo" id="D550D285-D2B1-DA46-654B-438377529715">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-25 22:59:38 UTC</createdTime>
+<generatorID>7DB7EA3F-7182-0CB8-537B-FC1F556F0076</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="61F787AD-AFCC-A0BA-A6C8-30344605A626" value="true"/>
+</engineerTo>
+<referedAttribute>80928DDB-7DFF-B81B-92B6-1854E9FC7A67</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cliente" id="B45646F7-C4D5-7AFB-010C-4D74B16B0C6F">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-25 22:59:43 UTC</createdTime>
+<generatorID>73057452-EE5D-4390-A901-AEBBE4C0ED75</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="61F787AD-AFCC-A0BA-A6C8-30344605A626" value="true"/>
+</engineerTo>
+<referedAttribute>8009B012-DFD3-E8B3-3F4C-2B46B00F655C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4D7DC320-A15F-136D-BDE6-032A3636118D" name="Arriendo_Vehiculo PK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-25 22:53:58 UTC</createdTime>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="61F787AD-AFCC-A0BA-A6C8-30344605A626" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6B691D3C-5BE5-04BC-0279-D9E9841D31D2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

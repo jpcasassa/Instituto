@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FD944D95-1D99-0D13-A8D7-E8374AB8A13A" name="Vehiculo_Electrico">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-09 22:41:46 UTC</createdTime>
+<ownerDesignName>Negocio001</ownerDesignName>
+<engineerTo>
+<item key="3F4108FC-2A74-F1EC-1342-500B20A4E12D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_vehiculo_electrico" id="9A280879-1838-FC4E-01D0-CAF88E886E3F">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-09 22:41:59 UTC</createdTime>
+<ownerDesignName>Negocio001</ownerDesignName>
+<engineerTo>
+<item key="3F4108FC-2A74-F1EC-1342-500B20A4E12D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="5DE03A66-E0E2-AE7D-A320-0080A4240D16">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-09 22:42:28 UTC</createdTime>
+<ownerDesignName>Negocio001</ownerDesignName>
+<engineerTo>
+<item key="3F4108FC-2A74-F1EC-1342-500B20A4E12D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_vehiculo" id="95E501DF-835B-C724-7550-0C2D93B4A4FA">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-09 23:34:37 UTC</createdTime>
+<generatorID>4AE1DABC-B232-B219-066D-2B689869ECAA</generatorID>
+<ownerDesignName>Negocio001</ownerDesignName>
+<engineerTo>
+<item key="3F4108FC-2A74-F1EC-1342-500B20A4E12D" value="true"/>
+</engineerTo>
+<referedAttribute>904CB134-9972-895F-BC70-F81A5A789B72</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="patente" id="F476851F-1B29-CF59-4D03-5E6521B66642">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-09 23:34:37 UTC</createdTime>
+<generatorID>4AE1DABC-B232-B219-066D-2B689869ECAA</generatorID>
+<ownerDesignName>Negocio001</ownerDesignName>
+<engineerTo>
+<item key="3F4108FC-2A74-F1EC-1342-500B20A4E12D" value="true"/>
+</engineerTo>
+<referedAttribute>65EEACDD-AE03-0BF8-982A-037B48E5CFD4</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F56646B6-B2E3-1EF9-47B8-6C532386492D" name="Tipo de Vehiculo PK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-09 22:42:24 UTC</createdTime>
+<ownerDesignName>Negocio001</ownerDesignName>
+<engineerTo>
+<item key="3F4108FC-2A74-F1EC-1342-500B20A4E12D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9A280879-1838-FC4E-01D0-CAF88E886E3F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

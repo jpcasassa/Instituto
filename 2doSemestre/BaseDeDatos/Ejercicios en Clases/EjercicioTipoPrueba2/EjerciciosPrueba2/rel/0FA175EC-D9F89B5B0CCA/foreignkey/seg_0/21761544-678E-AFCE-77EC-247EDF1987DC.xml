@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="21761544-678E-AFCE-77EC-247EDF1987DC" containerWithKeyObject="0929B5D2-3242-C92E-0867-8D1FDB84A784" localFKIndex="920D4E34-D8E8-D8CD-2606-F90338BF45D7" name="Ciudades_Regiones_FK">
+<createdBy>Casassa</createdBy>
+<createdTime>2025-10-17 02:42:48 UTC</createdTime>
+<generatorID>1BEF414D-27C1-1602-9979-AFA3F637D4FB</generatorID>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<referredTableLongName>Regiones</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>290A6C96-9AF1-ECFE-FA65-D7EA2A4E1345</referredTableID>
+<keyObject>D0126028-CE71-B3E4-F0AE-CEADD3E84DF2</keyObject>
+<referredKeyID>D0126028-CE71-B3E4-F0AE-CEADD3E84DF2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_region</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

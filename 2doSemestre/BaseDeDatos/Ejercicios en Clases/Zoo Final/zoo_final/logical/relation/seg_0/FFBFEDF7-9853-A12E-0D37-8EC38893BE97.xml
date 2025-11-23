@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Visitas Tours Visitas FK" directorySegmentName="seg_0" id="FFBFEDF7-9853-A12E-0D37-8EC38893BE97">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-27 00:02:13 UTC</createdTime>
+<ownerDesignName>zoo_final</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<sourcePk>5A389629-AEB9-2B7D-3903-AF2619B6A363</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CE9CDFF3-A72B-C892-3FB6-4B0984796484</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DADF67ED-4C98-6F80-DB22-B58094CEB0C2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

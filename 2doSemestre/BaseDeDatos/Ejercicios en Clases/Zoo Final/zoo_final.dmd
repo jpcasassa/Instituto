@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="zoo_final" id="BFD4F036-B278-E19E-20B8-9913B76E0D75" version="3.5">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-19 23:39:32 UTC</createdTime>
+<ownerDesignName>zoo</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>BFD4F036-B278-E19E-20B8-9913B76E0D75</designId>
+</OSDM_Design>

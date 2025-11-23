@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C832232B-787A-4344-3EDB-13CA478CA084" name="Parques">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>4544069F-6822-B011-A9E8-AE446A7E1D2A</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_parque" id="9192DE07-919F-CC6A-2822-72EA0999A125">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>F8976669-D6B6-4697-EF37-5BDDD348A0B9</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="BD39E727-821A-CA0D-E6BC-B90B9E0B8655">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>DAA2F988-314C-4F12-B77E-8069C28BD887</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Regiones_id_region" id="EE6097DB-8EA4-E954-517A-567DDBA59F11">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>B077772B-E127-C8FF-B3B6-C8BDCCDCA3D9</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="542F5B21-16FE-EB40-2903-923B6CF17933" referredColumn="F3DBB800-0E7A-2338-0674-1E080E51BABE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BAA9C499-B8BF-8439-F295-A958774F2CDF" name="Parques_PK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>845A7988-CF32-C0E8-49D0-C0EF787E4D11</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9192DE07-919F-CC6A-2822-72EA0999A125"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="202A28C7-DEA0-9566-84AC-608F858AFF0D" name="Parques_Regiones_FK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>B805E9B3-8589-FA29-EACD-8278C15D3786</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE6097DB-8EA4-E954-517A-567DDBA59F11"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

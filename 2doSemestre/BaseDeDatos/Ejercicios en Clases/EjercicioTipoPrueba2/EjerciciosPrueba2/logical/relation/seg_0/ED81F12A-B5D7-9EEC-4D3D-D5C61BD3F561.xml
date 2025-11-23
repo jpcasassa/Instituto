@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Formulario Directores FK" directorySegmentName="seg_0" id="ED81F12A-B5D7-9EEC-4D3D-D5C61BD3F561">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-16 21:38:53 UTC</createdTime>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<engineerTo>
+<item key="0FA175EC-4E90-EAB6-9D5C-D9F89B5B0CCA" value="true"/>
+</engineerTo>
+<sourcePk>E5347C52-F20F-7A79-652D-F29C1FEB3B6B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9DF4D5E5-12B8-2887-6EDA-833B8FB12C71</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>AC114B13-23FC-55DD-5B88-57193533EB5C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

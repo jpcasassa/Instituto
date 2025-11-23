@@ -1,0 +1,87 @@
+Formularios
+id_formulario
+n_formulario
+id_director -
+id_academia -
+id_inversion -
+id_recursos -
+fecha -
+firma -
+
+Directores
+id_director -
+run -
+apellido_paterno -
+nombres -
+direccion -
+telefonos -
+correo -
+profesion -
+ 
+Nacionalidad -
+id_nacionalidad -
+gentilicio -
+
+Estado_civil-
+es_soltero -
+es_casado -
+es_viudo -
+es_divorsiado -
+
+Comunas -
+id_comuna -
+combre -
+
+Ciudades -
+id_ciudad -
+nombre -
+
+Regiones -
+id_region -
+nombre -
+
+Academias -
+id_academia -
+nombre -
+direccion -
+codigo_postal -
+sitio_Web -
+red_social -
+
+Tipos (academia)
+id_tipo -
+tipo_academia -
+ 
+Inversiones -
+id_inversion -
+monto_solicitado_uf-
+nombre_proyecto -
+
+Tipos(Inversion) -
+id_tipo -
+tipo_inversion -
+
+Recursos -
+id_recurso -
+puntaje -
+monto_asignado_uf -
+cumple_requisito -
+
+Contratos_trabajos -
+id_contrato -
+n_folio -
+sueldo_base -
+valor_hr -
+horas_trabajadas -
+
+Trabajadores -
+id_trabajador -
+nombre -
+run -
+profesion -
+universidad -
+direccion -
+afp -
+salud -
+
+Tipo (Contrato) -

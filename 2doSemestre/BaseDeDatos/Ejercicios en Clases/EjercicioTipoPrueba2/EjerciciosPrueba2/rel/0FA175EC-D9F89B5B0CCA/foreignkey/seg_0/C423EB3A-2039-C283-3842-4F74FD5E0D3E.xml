@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C423EB3A-2039-C283-3842-4F74FD5E0D3E" containerWithKeyObject="6E106B89-B40B-C274-6D04-C6EE08EAD280" localFKIndex="8A01902B-FCBA-F1D0-07CC-19CB1CF140D6" name="Tipo_Contrato_Tipo_3_FK">
+<createdBy>Casassa</createdBy>
+<createdTime>2025-10-17 02:42:48 UTC</createdTime>
+<generatorID>324160D1-FA00-7726-ADF9-04166BE00EF5</generatorID>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<referredTableLongName>Tipo_3</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>96443212-DA2C-43FC-9BEA-1A94C40B5FE1</referredTableID>
+<keyObject>BD57BE5B-5374-8AF5-FBB8-FBBDBAE2B00F</keyObject>
+<referredKeyID>BD57BE5B-5374-8AF5-FBB8-FBBDBAE2B00F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_tipo_contrato</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

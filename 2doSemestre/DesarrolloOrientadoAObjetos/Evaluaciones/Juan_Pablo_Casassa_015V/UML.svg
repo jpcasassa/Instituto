@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   sodipodi:docname="UML.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="311.83409"
+     inkscape:cy="441.23463"
+     inkscape:window-width="1344"
+     inkscape:window-height="777"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:snap-global="false"
+     inkscape:snap-bbox="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:snap-nodes="true"
+     inkscape:object-paths="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-midpoints="true"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <sodipodi:guide
+       position="89.134192,178.2767"
+       orientation="1,0"
+       id="guide18496" />
+    <sodipodi:guide
+       position="89.134192,178.2767"
+       orientation="0,-1"
+       id="guide18498" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#ebf2ff;fill-opacity:1;stroke:none;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect17300"
+       width="150.27249"
+       height="220.53299"
+       x="13.997949"
+       y="8.4568071"
+       rx="0"
+       ry="0"
+       inkscape:export-filename="D:\Instituto\2doSemestre\Desarrollo Orientado a Objetos\Evaluaciones\Evaluacion2.1\DiagramaUML.png"
+       inkscape:export-xdpi="134.864"
+       inkscape:export-ydpi="134.864" />
+    <rect
+       style="fill:#ffffe7;stroke:#000000;stroke-width:0.699999;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke;fill-opacity:1"
+       id="rect846"
+       width="42.656361"
+       height="23.781635"
+       x="67.805298"
+       y="189.0517"
+       rx="3.9380429"
+       ry="3.9080338" />
+    <rect
+       style="fill:#ffffe7;stroke:#000000;stroke-width:0.699999;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke;fill-opacity:1"
+       id="rect3910"
+       width="42.656361"
+       height="23.781635"
+       x="67.059494"
+       y="149.3047"
+       rx="3.9380429"
+       ry="3.9080338" />
+    <rect
+       style="fill:#ffffe7;stroke:#000000;stroke-width:0.699999;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke;fill-opacity:1"
+       id="rect8066"
+       width="42.656361"
+       height="23.781635"
+       x="-78.815437"
+       y="106.7851"
+       rx="3.9380429"
+       ry="3.9080338"
+       transform="scale(-1,1)" />
+    <rect
+       style="fill:#ffffe7;stroke:#000000;stroke-width:0.699999;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke;fill-opacity:1"
+       id="rect8072"
+       width="42.656361"
+       height="23.781635"
+       x="-142.20201"
+       y="106.7851"
+       rx="3.9380429"
+       ry="3.9080338"
+       transform="scale(-1,1)" />
+    <rect
+       style="fill:#ffffe7;stroke:#000000;stroke-width:0.699999;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke;fill-opacity:1"
+       id="rect9956"
+       width="42.656361"
+       height="23.781635"
+       x="67.623283"
+       y="64.172844"
+       rx="3.9380429"
+       ry="3.9080338" />
+    <rect
+       style="fill:#ffffe7;stroke:#000000;stroke-width:0.699999;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke;fill-opacity:1"
+       id="rect9962"
+       width="42.656361"
+       height="23.781635"
+       x="67.059494"
+       y="24.425838"
+       rx="3.9380429"
+       ry="3.9080338" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 57.487246,106.7851 v -9.999721 l 19.13557,5e-6 v -8.830912"
+       id="path14499-2"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 53.17629,102.00933 4.310956,4.77577"
+       id="path15093-7"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 61.798206,102.00933 -4.31096,4.77577"
+       id="path15175-1"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-size:6.78807px;font-family:'Birds of Paradise  Personal use';-inkscape-font-specification:'Birds of Paradise  Personal use';text-align:center;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.699999;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke"
+       x="94.065025"
+       y="190.9884"
+       id="text1534"
+       transform="scale(0.93896608,1.0650012)"><tspan
+         sodipodi:role="line"
+         id="tspan1532"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Book Antiqua';-inkscape-font-specification:'Book Antiqua';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.699999"
+         x="94.065025"
+         y="190.9884">Promocion</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:6.41516px;font-family:'Birds of Paradise  Personal use';-inkscape-font-specification:'Birds of Paradise  Personal use';text-align:center;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.699999;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke"
+       x="94.158028"
+       y="153.52335"
+       id="text3914"
+       transform="scale(0.93896608,1.0650012)"><tspan
+         sodipodi:role="line"
+         id="tspan3912"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Book Antiqua';-inkscape-font-specification:'Book Antiqua';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.699999"
+         x="94.158028"
+         y="153.52335">Excursiones</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:6.41516px;font-family:'Birds of Paradise  Personal use';-inkscape-font-specification:'Birds of Paradise  Personal use';text-align:center;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.699999;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke"
+       x="128.68224"
+       y="113.72403"
+       id="text8070"
+       transform="scale(0.93896608,1.0650012)"><tspan
+         sodipodi:role="line"
+         id="tspan8068"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Book Antiqua';-inkscape-font-specification:'Book Antiqua';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.699999"
+         x="128.68224"
+         y="113.72403">Cultural</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:6.41516px;font-family:'Birds of Paradise  Personal use';-inkscape-font-specification:'Birds of Paradise  Personal use';text-align:center;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.699999;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke"
+       x="61.233383"
+       y="113.62534"
+       id="text8076"
+       transform="scale(0.93896608,1.0650012)"><tspan
+         sodipodi:role="line"
+         id="tspan8074"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Book Antiqua';-inkscape-font-specification:'Book Antiqua';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.699999"
+         x="61.233383"
+         y="113.62534">Aventura</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:6.78807px;font-family:'Birds of Paradise  Personal use';-inkscape-font-specification:'Birds of Paradise  Personal use';text-align:center;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.699999;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke"
+       x="94.665459"
+       y="73.731392"
+       id="text9960"
+       transform="scale(0.93896608,1.0650012)"><tspan
+         sodipodi:role="line"
+         id="tspan9958"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Book Antiqua';-inkscape-font-specification:'Book Antiqua';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.699999"
+         x="95.513969"
+         y="73.731392">Catalogo </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:6.41516px;font-family:'Birds of Paradise  Personal use';-inkscape-font-specification:'Birds of Paradise  Personal use';text-align:center;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.699999;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke"
+       x="94.158028"
+       y="36.266331"
+       id="text9966"
+       transform="scale(0.93896608,1.0650012)"><tspan
+         sodipodi:role="line"
+         id="tspan9964"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Book Antiqua';-inkscape-font-specification:'Book Antiqua';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.699999"
+         x="94.158028"
+         y="36.266331">Main</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 120.87382,106.7851 v -9.999721 l -19.13556,5e-6 v -8.830912"
+       id="path15860"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 125.18477,102.00933 -4.31095,4.77577"
+       id="path15862"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 116.56286,102.00933 4.31096,4.77577"
+       id="path15864"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 76.622816,149.39736 v -9.99973 l -19.13556,1e-5 v -8.83091"
+       id="path15866"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 80.933776,144.6216 -4.31096,4.77577"
+       id="path15868"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 72.311856,144.6216 4.31096,4.77577"
+       id="path15870"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 101.73825,149.39736 v -9.99973 l 19.13556,1e-5 v -8.83091"
+       id="path15872"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 106.0492,144.62159 -4.31095,4.77577 -4.310952,-4.77577"
+       id="path15876"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 88.387676,173.08631 v 15.96536"
+       id="path14499" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 92.698636,184.2759 -4.31096,4.77577 -4.31096,-4.77577"
+       id="path15175"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 88.951456,48.207476 v 15.96536"
+       id="path14499-1" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.7;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 93.262416,59.397066 -4.31096,4.77577 -4.31096,-4.77577"
+       id="path15175-9"
+       sodipodi:nodetypes="ccc" />
+  </g>
+</svg>

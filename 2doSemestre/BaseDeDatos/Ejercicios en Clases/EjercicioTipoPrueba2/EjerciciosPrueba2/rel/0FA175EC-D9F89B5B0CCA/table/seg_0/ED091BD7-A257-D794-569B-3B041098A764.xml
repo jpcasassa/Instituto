@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ED091BD7-A257-D794-569B-3B041098A764" name="Comunas">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-16 22:06:05 UTC</createdTime>
+<generatorID>246F5EF8-BBA8-87A7-9DE4-B58E405DBBDF</generatorID>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_comuna" id="AF77163F-8248-6F3B-8EA6-607AC369BB86">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-16 22:06:05 UTC</createdTime>
+<generatorID>0AE282EC-3B01-41BB-60ED-EB28F609E104</generatorID>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="DD413204-B170-938A-C128-C24C7B54FFCF">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-16 22:06:05 UTC</createdTime>
+<generatorID>CC90633F-889C-6A39-72FE-796E95F26422</generatorID>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Regiones_id_region" id="CE6BD1F0-2386-3F6C-B9FF-5FE7BFFA45F7">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-16 22:06:05 UTC</createdTime>
+<generatorID>6D7FF3B5-B0EB-9251-6DAB-F15B9BC8C4AE</generatorID>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D0CD382C-5AD1-D1BD-B08C-85B99E3BDCE2" referredColumn="0EE608E2-0B57-2AF1-1A9A-A11B46B9E6FC"/>
+</associations>
+</Column>
+<Column name="Ciudades_id_ciudades" id="D9D30F13-F58B-E911-3954-007C8CF82EE1">
+<createdBy>Casassa</createdBy>
+<createdTime>2025-10-17 02:42:48 UTC</createdTime>
+<generatorID>2E4993E4-29C9-9366-039D-B53A595D01E5</generatorID>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B5895C9E-72B9-9CAF-25D8-51C00AF26BD2" referredColumn="F305A9FB-951E-2BD0-4160-EAF90566C455"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="222BAD7B-5011-BF96-8DCB-C638CD597237" name="Comunas_PK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-16 22:06:05 UTC</createdTime>
+<generatorID>B4E8E6EE-AD6C-3304-3C62-C36448474947</generatorID>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF77163F-8248-6F3B-8EA6-607AC369BB86"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="19D6EE4C-FD7C-F536-8B48-2284A2E460DE" name="Comunas_Regiones_FK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-16 22:06:05 UTC</createdTime>
+<generatorID>5B0AFECB-F0A8-3B80-5D5A-2572F52F8281</generatorID>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CE6BD1F0-2386-3F6C-B9FF-5FE7BFFA45F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="30028E5E-75BB-A2D0-03F3-8975D679D8BC" name="Comunas_Ciudades_FK">
+<createdBy>Casassa</createdBy>
+<createdTime>2025-10-17 02:42:48 UTC</createdTime>
+<generatorID>7066A148-6FDF-D8E7-6035-5A90B9D508B1</generatorID>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9D30F13-F58B-E911-3954-007C8CF82EE1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

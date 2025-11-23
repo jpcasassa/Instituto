@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8C5703D0-5F35-64A6-6BAB-C6B0982E62DA" name="Tours">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>EEB94A1F-7472-30E0-E4A2-A45D257F054D</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_tour" id="39936E45-CFFB-3D22-21AE-5A21CEE1FF3A">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>25E54A61-E5C7-99E8-AFCA-7DDFB1B363F6</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codigo" id="FDED17ED-7FC4-497E-DDBF-34B42F5DD640">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>14C4F129-44E9-9B31-9425-966846223BB0</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hora_inicio" id="5793DCE2-971A-D427-83BC-8C7F4FB09B1B">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>19C3D44D-7C9F-46F5-2E95-76EB6CC2FAF9</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="duracion" id="23E470A2-555F-0579-F16F-79D6073D86BE">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>D1D7C01A-5002-C60A-461F-446F0E8619C7</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="longitud_recorrido" id="5531CBBD-226A-42C6-95AC-5C59CB9D03C7">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>79987299-3F6C-D0F3-6151-F64BF97FED74</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="maximos_visitantes" id="FEC2E427-4847-371F-2E12-6BE0742779FB">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>D28A8D7F-1C5D-5E04-D1E0-01FAC989AD6E</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Guias_id_guia" id="603C2A3E-F38A-914B-DB8E-6263777F71A3">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>F672186D-A45E-E220-AD8A-8AF2FA7669E3</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DC636147-7AA6-2F73-3E2B-5074E06F6CF4" referredColumn="39A8CF5C-47C5-3EB2-8E90-6D5AA36197DF"/>
+</associations>
+</Column>
+<Column name="Zonas_id_zona" id="C97A9CA8-2A7A-E7E9-4F4D-D8085C97B8DA">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>3F3C432B-078C-32EA-2A48-975A895BED3F</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CC28CD7F-235B-37C6-0CD3-C48608F43B0B" referredColumn="C8470FAE-6AB9-BBF7-D7FA-399E506A5D9F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4EC8020D-F7C8-144B-DDF5-F65A54FA07D8" name="Tours_PK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>3CA3DA77-69B2-B62A-C07A-5D01D344C3C0</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39936E45-CFFB-3D22-21AE-5A21CEE1FF3A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D44460DE-CB84-0A0C-FD42-67404201C6DC" name="Tours_Guias_FK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>5445329D-9611-FA71-41C5-D944E1827760</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="603C2A3E-F38A-914B-DB8E-6263777F71A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4E1617C8-BCC5-1C1E-2001-ED990A3C76F1" name="Tours_Zonas_FK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>72D827F8-A80F-6535-CD1A-78732380D734</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C97A9CA8-2A7A-E7E9-4F4D-D8085C97B8DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

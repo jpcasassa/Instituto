@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="74AC3DDB-D347-7568-7DDF-ABA47BB8AAD4" name="Notas">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-12 00:08:46 UTC</createdTime>
+<ownerDesignName>PruebaparcialN1_016V_JuanPabloCasassaUrra</ownerDesignName>
+<engineerTo>
+<item key="18D7BD2B-1603-26D9-85A8-731FD4FC53AE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_calificacion" id="B45CF600-D6DE-F56C-C1E8-C1A6EEEC2626">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-12 00:08:51 UTC</createdTime>
+<ownerDesignName>PruebaparcialN1_016V_JuanPabloCasassaUrra</ownerDesignName>
+<engineerTo>
+<item key="18D7BD2B-1603-26D9-85A8-731FD4FC53AE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="puntaje_nota" id="DA1B18EA-234E-00F8-5D16-49646D91FBFA">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-12 00:09:06 UTC</createdTime>
+<ownerDesignName>PruebaparcialN1_016V_JuanPabloCasassaUrra</ownerDesignName>
+<engineerTo>
+<item key="18D7BD2B-1603-26D9-85A8-731FD4FC53AE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_evaluacion" id="CE956CEF-356B-79CB-E2C3-9BCFBA709D4B">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-12 01:24:56 UTC</createdTime>
+<ownerDesignName>PruebaparcialN1_016V_JuanPabloCasassaUrra</ownerDesignName>
+<engineerTo>
+<item key="18D7BD2B-1603-26D9-85A8-731FD4FC53AE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_evaluacion" id="08182982-8823-2DCA-9B1C-7EB7D8FF3ABB">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-12 01:25:06 UTC</createdTime>
+<ownerDesignName>PruebaparcialN1_016V_JuanPabloCasassaUrra</ownerDesignName>
+<engineerTo>
+<item key="18D7BD2B-1603-26D9-85A8-731FD4FC53AE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_curso" id="18985673-54F1-8AB7-A140-80023627E9B1">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-12 01:25:37 UTC</createdTime>
+<generatorID>B0E49E3A-F553-89E6-E3F6-E325934474A4</generatorID>
+<ownerDesignName>PruebaparcialN1_016V_JuanPabloCasassaUrra</ownerDesignName>
+<engineerTo>
+<item key="18D7BD2B-1603-26D9-85A8-731FD4FC53AE" value="true"/>
+</engineerTo>
+<referedAttribute>80C99803-704E-3DC6-7738-895CF82C9F82</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_asignatura" id="D9289324-CEC0-58D8-B0EE-FC7DAE057ED3">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-12 01:25:42 UTC</createdTime>
+<generatorID>97B1D61E-5C3C-5C2C-9EF8-C64BF9DDB92C</generatorID>
+<ownerDesignName>PruebaparcialN1_016V_JuanPabloCasassaUrra</ownerDesignName>
+<engineerTo>
+<item key="18D7BD2B-1603-26D9-85A8-731FD4FC53AE" value="true"/>
+</engineerTo>
+<referedAttribute>D3EC7B15-2119-0227-351C-D4AC784C8462</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_estudiante" id="D5CFF2CF-173E-FA07-836A-FE2B8910BCF0">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-12 01:40:52 UTC</createdTime>
+<generatorID>ED61D73E-748A-997C-F1DD-D2403DCB1D4A</generatorID>
+<ownerDesignName>PruebaparcialN1_016V_JuanPabloCasassaUrra</ownerDesignName>
+<engineerTo>
+<item key="18D7BD2B-1603-26D9-85A8-731FD4FC53AE" value="true"/>
+</engineerTo>
+<referedAttribute>0CD44DD1-7DB6-2A4B-D305-CFACD01271D7</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="834447E7-8B94-4933-B90D-98B6FF3C7636" name="Notas PK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-12 01:24:49 UTC</createdTime>
+<ownerDesignName>PruebaparcialN1_016V_JuanPabloCasassaUrra</ownerDesignName>
+<engineerTo>
+<item key="18D7BD2B-1603-26D9-85A8-731FD4FC53AE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B45CF600-D6DE-F56C-C1E8-C1A6EEEC2626</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="spa_boutique" id="274A8A1E-81E5-BC2E-7942-17976DC9B232" version="3.5">
+<createdBy>BilbaoLabs</createdBy>
+<createdTime>2024-02-29 19:14:14 UTC</createdTime>
+<ownerDesignName>spa_boutique</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>274A8A1E-81E5-BC2E-7942-17976DC9B232</designId>
+</OSDM_Design>

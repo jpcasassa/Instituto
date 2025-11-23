@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8913769B-0900-B020-A22F-43FBD8A63E5C" name="Contrato_Maquinaria">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-07 23:14:03 UTC</createdTime>
+<ownerDesignName>Contrato_parcial</ownerDesignName>
+<engineerTo>
+<item key="2843F889-80D5-ED22-48BB-E95383CB9E46" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_contrato_maquinaria" id="74A5A9EC-4792-2BDD-2646-7B2AD2DDAE24">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-07 23:14:19 UTC</createdTime>
+<ownerDesignName>Contrato_parcial</ownerDesignName>
+<engineerTo>
+<item key="2843F889-80D5-ED22-48BB-E95383CB9E46" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cantidad" id="6B828744-BCC8-1719-F824-D61783539D08">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-07 23:14:55 UTC</createdTime>
+<ownerDesignName>Contrato_parcial</ownerDesignName>
+<engineerTo>
+<item key="2843F889-80D5-ED22-48BB-E95383CB9E46" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sub_total" id="A7347AE8-A310-2E3F-6920-46F5EEEF79BF">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-07 23:15:28 UTC</createdTime>
+<ownerDesignName>Contrato_parcial</ownerDesignName>
+<engineerTo>
+<item key="2843F889-80D5-ED22-48BB-E95383CB9E46" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_contrato" id="59DC5B64-AEFF-225D-8729-4CFE5A48EC6A">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-07 23:16:01 UTC</createdTime>
+<generatorID>F4F51F38-924B-DD39-8355-77651AAEA1A1</generatorID>
+<ownerDesignName>Contrato_parcial</ownerDesignName>
+<engineerTo>
+<item key="2843F889-80D5-ED22-48BB-E95383CB9E46" value="true"/>
+</engineerTo>
+<referedAttribute>A378B2C2-7599-2368-2CD1-41F894CF93D1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_maquinaria" id="6F607C80-034D-CD7C-DEAB-5F5A3F4D4ABA">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-07 23:16:05 UTC</createdTime>
+<generatorID>E92AD1E6-0A14-F109-73A4-90CE1647078D</generatorID>
+<ownerDesignName>Contrato_parcial</ownerDesignName>
+<engineerTo>
+<item key="2843F889-80D5-ED22-48BB-E95383CB9E46" value="true"/>
+</engineerTo>
+<referedAttribute>00D336C7-A3EE-D716-4840-207E18D50326</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0B36FE5B-FB20-51C3-88B6-265BBE9D1548" name="Contrato_Maquinaria PK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-07 23:14:55 UTC</createdTime>
+<ownerDesignName>Contrato_parcial</ownerDesignName>
+<engineerTo>
+<item key="2843F889-80D5-ED22-48BB-E95383CB9E46" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>74A5A9EC-4792-2BDD-2646-7B2AD2DDAE24</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

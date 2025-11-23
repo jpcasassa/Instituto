@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0B6B44B2-5AA9-67BB-63C6-DA7C58EF2A95" name="Visitantes">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-21 23:31:28 UTC</createdTime>
+<ownerDesignName>zoo_parte_2</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_visitante" id="FA73B181-2DD4-F255-F828-173E2564ED76">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-21 23:31:33 UTC</createdTime>
+<ownerDesignName>zoo_parte_2</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="B3026AFE-AEFE-195A-F2A3-8ED728EB5D26">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-21 23:31:39 UTC</createdTime>
+<ownerDesignName>zoo_parte_2</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BEA7BD17-9D19-0BD1-3EB7-8532F5675800" name="Visitantes PK">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-21 23:31:38 UTC</createdTime>
+<ownerDesignName>zoo_parte_2</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FA73B181-2DD4-F255-F828-173E2564ED76</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

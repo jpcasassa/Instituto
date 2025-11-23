@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_10" directorySegmentName="seg_0" id="E5A1D1A7-5363-D1A3-86AB-7A8D14EB7931">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-10-01 22:56:17 UTC</createdTime>
+<ownerDesignName>spa_boutique</ownerDesignName>
+<engineerTo>
+<item key="8AA3C162-D1AA-82A5-7D71-ABF03733A398" value="true"/>
+</engineerTo>
+<sourcePk>D3CA1F31-2DF2-88F8-8E1F-57B542237503</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5B0ADE74-E71C-1D9D-9C30-E90F9293B95D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DE537A7F-CC85-5F6E-DFE1-1D6B8D2A96D5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

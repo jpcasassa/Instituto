@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="546753EC-771B-5CBE-0896-092F22FD040F" name="Habitats">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-20 00:34:18 UTC</createdTime>
+<ownerDesignName>zoo_final</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id habitat" id="57FA9A16-3A0F-1684-E7B2-C3FFBB42AD43">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-20 00:34:25 UTC</createdTime>
+<ownerDesignName>zoo_final</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="A148CFA0-DCDC-1C4A-843F-E4F7958E86F2">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-20 00:34:34 UTC</createdTime>
+<ownerDesignName>zoo_final</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Continentes id continente" id="93C5C2D6-DCA1-A524-7402-AC26A5DFD1A1">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-22 00:12:13 UTC</createdTime>
+<generatorID>FB8873E8-251E-8D9E-9036-F4AE1FAD0A70</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<referedAttribute>292EE841-62D3-93A9-949F-909017904C80</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Clima id clima" id="29C9ECA6-52FB-E000-2423-69D714E7C4C9">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:51:03 UTC</createdTime>
+<generatorID>8A2C3D27-DBC3-A4BB-F7C5-48FCAED80078</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<referedAttribute>DD08F473-36D5-7048-1BE1-A0339D15D084</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id tipo vegetacion" id="EE3687F5-22F2-49A9-2987-B0A13BE76872">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:51:18 UTC</createdTime>
+<generatorID>1180129A-4CF6-59FD-6A49-8AA70BB439D5</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<referedAttribute>4975C69D-C9A6-4115-6B1F-D74B5F43E794</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F6B336C4-6FEA-5E5E-2315-78E01301E876" name="Habitats PK">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-20 00:34:39 UTC</createdTime>
+<ownerDesignName>zoo_final</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>57FA9A16-3A0F-1684-E7B2-C3FFBB42AD43</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

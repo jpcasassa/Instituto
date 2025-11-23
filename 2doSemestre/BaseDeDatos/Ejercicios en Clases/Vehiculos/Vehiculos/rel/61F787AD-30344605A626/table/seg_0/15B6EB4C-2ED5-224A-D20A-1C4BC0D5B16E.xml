@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="15B6EB4C-2ED5-224A-D20A-1C4BC0D5B16E" name="Vehiculos_Electricos">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-25 23:00:21 UTC</createdTime>
+<generatorID>2AD39BB0-55EE-A8C3-6509-B3D5AB9206A4</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_vehiculo_electrico" id="0A3EEF19-21D4-0FDD-BDC3-895477F1C8A4">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-25 23:00:21 UTC</createdTime>
+<generatorID>5FB91BEE-4D73-556E-6154-62C5A0A2F4F9</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Vehiculos_id_vehiculo" id="6BD9B08B-0501-D9D3-AD33-52F47DABE3C6">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-25 23:00:21 UTC</createdTime>
+<generatorID>C386766D-E12D-9241-683D-4AE6C78A302E</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B5D95555-96A8-6DFB-B835-3ABB5609EB9A" referredColumn="9D8F4E56-631E-8B04-E5BF-BD8C66C94DFC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5F2EAFB2-B2C4-764F-479A-59FE2BD1ACDB" name="Vehiculos_Electricos_PK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-25 23:00:21 UTC</createdTime>
+<generatorID>F804D17C-AB59-6FBE-69D0-1010EC694041</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A3EEF19-21D4-0FDD-BDC3-895477F1C8A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C7451D0F-4778-BC09-044B-D0E23BADE065" name="Vehiculos_Electricos_Vehiculos_FK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-25 23:00:21 UTC</createdTime>
+<generatorID>5ABD19FA-4AC4-92BA-A861-D53AFDA54365</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BD9B08B-0501-D9D3-AD33-52F47DABE3C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

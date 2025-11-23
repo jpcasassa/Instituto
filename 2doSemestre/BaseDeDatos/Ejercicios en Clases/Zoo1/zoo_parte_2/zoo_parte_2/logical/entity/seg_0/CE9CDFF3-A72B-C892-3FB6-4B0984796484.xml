@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CE9CDFF3-A72B-C892-3FB6-4B0984796484" name="Visitas">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-21 23:33:58 UTC</createdTime>
+<ownerDesignName>zoo_parte_2</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_visita" id="62ACCEFD-DBC7-BBDA-356C-B81F360CD88B">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-21 23:34:03 UTC</createdTime>
+<ownerDesignName>zoo_parte_2</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="correlativo" id="1B7C70A0-AD38-4EF5-3DD0-69875717EAFD">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-21 23:34:09 UTC</createdTime>
+<ownerDesignName>zoo_parte_2</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dia_visita" id="4C990CA9-55BB-B0D0-4DCD-5D78DD517F8D">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-21 23:49:45 UTC</createdTime>
+<ownerDesignName>zoo_parte_2</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="razon_visita" id="F7A8533C-EB4F-5047-7D39-3D385A7A3C9E">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-21 23:50:37 UTC</createdTime>
+<ownerDesignName>zoo_parte_2</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_visitante" id="AE08BC08-D307-E11C-4FCE-8787A747EC7F">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-08-26 23:48:32 UTC</createdTime>
+<generatorID>92FA06C1-EEA7-0E97-5602-33526F92EB85</generatorID>
+<ownerDesignName>zoo_parte_2</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<referedAttribute>FA73B181-2DD4-F255-F828-173E2564ED76</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5A389629-AEB9-2B7D-3903-AF2619B6A363" name="Visitas PK">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-21 23:34:15 UTC</createdTime>
+<ownerDesignName>zoo_parte_2</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>62ACCEFD-DBC7-BBDA-356C-B81F360CD88B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

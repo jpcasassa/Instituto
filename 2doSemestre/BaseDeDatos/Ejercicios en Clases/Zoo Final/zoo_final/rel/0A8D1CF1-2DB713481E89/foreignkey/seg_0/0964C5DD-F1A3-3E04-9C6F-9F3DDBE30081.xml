@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0964C5DD-F1A3-3E04-9C6F-9F3DDBE30081" containerWithKeyObject="DA2F4F93-A3D5-6809-E107-DEB1DE7F3C77" localFKIndex="D4108A6F-89E3-A52D-B9FE-5F7B9F6E6956" name="Sucursal_Parques_FK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>83D40E05-F227-B1A0-3C2C-43B8AD42C27D</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<referredTableLongName>Parques</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C832232B-787A-4344-3EDB-13CA478CA084</referredTableID>
+<keyObject>BAA9C499-B8BF-8439-F295-A958774F2CDF</keyObject>
+<referredKeyID>BAA9C499-B8BF-8439-F295-A958774F2CDF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_parque</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

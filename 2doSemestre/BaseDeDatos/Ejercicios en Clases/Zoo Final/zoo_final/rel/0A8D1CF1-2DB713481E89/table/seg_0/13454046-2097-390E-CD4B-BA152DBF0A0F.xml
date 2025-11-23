@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="13454046-2097-390E-CD4B-BA152DBF0A0F" name="Cuidadores_Especies">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>1096B2C4-E5E7-727C-F72C-7476481CD728</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cuidador_especie" id="CB54FFE3-549A-C6CA-902B-1DE051CE7093">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>5F684FCA-F61C-1A1D-284E-13DD80C51880</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cuidadores_id_cuidador" id="33DCEF37-63B3-AA0E-21DA-6DCFEEAD448C">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>FBBFEB81-4715-ED6A-2019-6C17103F5968</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CBC9E9F9-68D0-3FBD-B921-8E3E34740035" referredColumn="1F5CDCDE-8F47-0D1D-79ED-42738E585E60"/>
+</associations>
+</Column>
+<Column name="Especies_id_especie" id="A227EFA5-2A22-BA18-4FD8-2F3BB8007742">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>0E536AAC-9B9E-DEEB-156E-6C68DE89A48A</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7E657709-B8F8-E7AB-4A9E-DAB067853364" referredColumn="AB4AB18C-5699-619B-D11A-EF5E38BC4BE6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A171D100-FF79-5A20-F299-67497096CCDE" name="Cuidadores_Especies_PK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>B355544A-4907-491E-DE1B-DF82DC0BBDB8</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB54FFE3-549A-C6CA-902B-1DE051CE7093"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="170DD6F6-EB17-A5D1-6F4E-8BA991921DB4" name="Cuidadores_Especies_Cuidadores_FK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>EA566346-AD9B-6C4E-5554-C124F6474C35</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33DCEF37-63B3-AA0E-21DA-6DCFEEAD448C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7454102A-9DEE-80EE-6BBD-46A59A1B35E6" name="Cuidadores_Especies_Especies_FK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>8E9486CA-7CD6-7E82-9585-4D453EEAAC0B</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A227EFA5-2A22-BA18-4FD8-2F3BB8007742"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

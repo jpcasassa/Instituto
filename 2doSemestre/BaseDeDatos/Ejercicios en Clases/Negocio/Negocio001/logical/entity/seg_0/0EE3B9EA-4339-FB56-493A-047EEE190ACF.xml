@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0EE3B9EA-4339-FB56-493A-047EEE190ACF" name="Persona_Autorizada">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-09 23:42:52 UTC</createdTime>
+<ownerDesignName>Negocio001</ownerDesignName>
+<engineerTo>
+<item key="3F4108FC-2A74-F1EC-1342-500B20A4E12D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_persona_autorizada" id="7840BAC3-8A8C-66FF-9794-228F9B8D7716">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-09 23:43:03 UTC</createdTime>
+<ownerDesignName>Negocio001</ownerDesignName>
+<engineerTo>
+<item key="3F4108FC-2A74-F1EC-1342-500B20A4E12D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_completo" id="8DE3E4A0-19A3-B7F2-53B3-33E742718995">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-09 23:43:11 UTC</createdTime>
+<ownerDesignName>Negocio001</ownerDesignName>
+<engineerTo>
+<item key="3F4108FC-2A74-F1EC-1342-500B20A4E12D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_inicio_autorizacion" id="320EC3F4-8D99-45A8-CC50-BECDE2B02715">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-09 23:43:30 UTC</createdTime>
+<ownerDesignName>Negocio001</ownerDesignName>
+<engineerTo>
+<item key="3F4108FC-2A74-F1EC-1342-500B20A4E12D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_fin_autorizacion" id="7BF8D1C6-B21E-1121-5B87-0F86B42AAD9C">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-09 23:44:11 UTC</createdTime>
+<ownerDesignName>Negocio001</ownerDesignName>
+<engineerTo>
+<item key="3F4108FC-2A74-F1EC-1342-500B20A4E12D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut_empresa" id="EBE0BC1B-0476-2CAA-6865-725E889010FD">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-09 23:44:42 UTC</createdTime>
+<ownerDesignName>Negocio001</ownerDesignName>
+<engineerTo>
+<item key="3F4108FC-2A74-F1EC-1342-500B20A4E12D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EDEB38AA-3EBB-A9EE-3D0A-9735C19702FE" name="Persona_Autorizada PK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-09 23:43:11 UTC</createdTime>
+<ownerDesignName>Negocio001</ownerDesignName>
+<engineerTo>
+<item key="3F4108FC-2A74-F1EC-1342-500B20A4E12D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7840BAC3-8A8C-66FF-9794-228F9B8D7716</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

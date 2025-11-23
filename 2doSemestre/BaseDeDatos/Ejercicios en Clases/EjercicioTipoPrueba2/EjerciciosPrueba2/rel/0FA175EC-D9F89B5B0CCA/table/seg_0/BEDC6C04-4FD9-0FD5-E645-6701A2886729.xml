@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BEDC6C04-4FD9-0FD5-E645-6701A2886729" name="Profesiones2">
+<createdBy>Casassa</createdBy>
+<createdTime>2025-10-17 02:54:04 UTC</createdTime>
+<generatorID>F18ED2E0-5D76-A71C-7CBF-685830F0EAFB</generatorID>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_profesion" id="9EF38F9B-A4DD-AA36-CD8B-D8378924008B">
+<createdBy>Casassa</createdBy>
+<createdTime>2025-10-17 02:54:04 UTC</createdTime>
+<generatorID>ED376DEB-7F4A-A9BF-6035-DC097A2B7F49</generatorID>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="028B8A65-D8C1-3584-D391-6B79A742CE07">
+<createdBy>Casassa</createdBy>
+<createdTime>2025-10-17 02:54:04 UTC</createdTime>
+<generatorID>47CD8EAD-C25F-6311-BBA3-69A2FB4B5AC2</generatorID>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4C2CA18F-2AB4-9F21-2822-8E6858B41F82" name="Profesiones2_PK">
+<createdBy>Casassa</createdBy>
+<createdTime>2025-10-17 02:54:04 UTC</createdTime>
+<generatorID>9E236C8A-FCE6-FE96-C0C1-BB10DEF05CD5</generatorID>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9EF38F9B-A4DD-AA36-CD8B-D8378924008B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

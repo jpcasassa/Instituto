@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DDE651AD-891A-8990-7939-4F5B2A4EFA8A" name="Fichas">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-19 23:51:01 UTC</createdTime>
+<ownerDesignName>zoo_parte_2</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_ficha" id="FCFF5018-01DD-2D01-EE6E-8773DEFB433C">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-19 23:51:07 UTC</createdTime>
+<ownerDesignName>zoo_parte_2</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_ingreso" id="9E71C7FE-50BC-A82D-91AD-EE3D2B9A6FB1">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-19 23:51:16 UTC</createdTime>
+<ownerDesignName>zoo_parte_2</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado_general" id="3A76A8D8-67FC-7A0D-7EDB-FABAB49FD2A6">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-19 23:52:27 UTC</createdTime>
+<ownerDesignName>zoo_parte_2</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="peso" id="43C584D5-F6EC-C4B2-01A4-19EE95C50010">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-19 23:52:38 UTC</createdTime>
+<ownerDesignName>zoo_parte_2</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_especie" id="063D11ED-F4E5-90ED-65E9-C49E087AC162">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-22 00:11:16 UTC</createdTime>
+<generatorID>EE96A9F3-E114-2A29-ADEB-0DEB6D776ADE</generatorID>
+<ownerDesignName>zoo_parte_2</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<referedAttribute>FEF40A05-6286-149C-CC24-834F9A207B44</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="33917A61-CDC6-1E91-17E3-B64801AEFBB7" name="Fichas PK">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-19 23:51:15 UTC</createdTime>
+<ownerDesignName>zoo_parte_2</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FCFF5018-01DD-2D01-EE6E-8773DEFB433C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

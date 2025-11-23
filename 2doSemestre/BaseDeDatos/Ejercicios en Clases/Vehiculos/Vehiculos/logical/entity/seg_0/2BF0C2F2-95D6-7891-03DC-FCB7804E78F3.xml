@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2BF0C2F2-95D6-7891-03DC-FCB7804E78F3" name="Vehiculos_Mecanicos">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-09-09 22:55:32 UTC</createdTime>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="61F787AD-AFCC-A0BA-A6C8-30344605A626" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_vehiculo_mecanico" id="383270E4-CFFC-6868-02D9-0913BBF52D4C">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-09-09 22:55:42 UTC</createdTime>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="61F787AD-AFCC-A0BA-A6C8-30344605A626" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_vehiculo" id="A3A604E2-286A-319B-C002-28556CC7CC4E">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-09-09 22:56:37 UTC</createdTime>
+<generatorID>944B7BB1-3810-62C5-ECB1-DCA64FBA3D49</generatorID>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="61F787AD-AFCC-A0BA-A6C8-30344605A626" value="true"/>
+</engineerTo>
+<referedAttribute>80928DDB-7DFF-B81B-92B6-1854E9FC7A67</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B3B587EC-0344-490F-2E9D-BD3E30657B71" name="Viehiculos_Mecanicos PK">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-09-09 22:55:51 UTC</createdTime>
+<ownerDesignName>Vehiculos</ownerDesignName>
+<engineerTo>
+<item key="61F787AD-AFCC-A0BA-A6C8-30344605A626" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>383270E4-CFFC-6868-02D9-0913BBF52D4C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

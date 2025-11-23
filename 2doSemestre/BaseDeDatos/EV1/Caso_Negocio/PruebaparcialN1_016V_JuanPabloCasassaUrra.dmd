@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="PruebaparcialN1_016V_JuanPabloCasassaUrra" id="4983EF0A-0076-7EA9-2C7B-7C54DE63842E" version="3.5">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-11 23:26:49 UTC</createdTime>
+<ownerDesignName>PruebaparcialN1_016V_JuanPabloCasassaUrra</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>4983EF0A-0076-7EA9-2C7B-7C54DE63842E</designId>
+</OSDM_Design>

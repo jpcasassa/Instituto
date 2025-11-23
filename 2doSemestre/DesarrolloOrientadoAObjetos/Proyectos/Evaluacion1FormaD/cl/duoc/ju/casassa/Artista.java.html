@@ -1,0 +1,104 @@
+<html>
+<head>
+<title>Artista.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cf8e6d;}
+.s1 { color: #bcbec4;}
+.s2 { color: #bcbec4;}
+.s3 { color: #7a7e85;}
+.s4 { color: #6aab73;}
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+Artista.java</font>
+</center></td></tr></table>
+<pre><span class="s0">package </span><span class="s1">cl</span><span class="s2">.</span><span class="s1">duoc</span><span class="s2">.</span><span class="s1">ju</span><span class="s2">.</span><span class="s1">casassa</span><span class="s2">;</span>
+
+<span class="s0">public class </span><span class="s1">Artista </span><span class="s2">{</span>
+    <span class="s3">// Atributos</span>
+    <span class="s0">private </span><span class="s1">String nombre</span><span class="s2">;</span>
+    <span class="s0">private </span><span class="s1">String rut</span><span class="s2">;</span>
+    <span class="s0">private int </span><span class="s1">nro_artista</span><span class="s2">;</span>
+    <span class="s0">private </span><span class="s1">String fecha_de_ingreso</span><span class="s2">;</span>
+    <span class="s0">private </span><span class="s1">String tipo_galeria</span><span class="s2">;</span>
+
+    <span class="s3">// Constructor vacío</span>
+    <span class="s0">public </span><span class="s1">Artista</span><span class="s2">() {</span>
+    <span class="s2">}</span>
+
+    <span class="s3">// Constructor con parámetros</span>
+    <span class="s0">public </span><span class="s1">Artista</span><span class="s2">(</span><span class="s1">String nombre</span><span class="s2">, </span><span class="s1">String rut</span><span class="s2">, </span><span class="s0">int </span><span class="s1">nro_artista</span><span class="s2">, </span><span class="s1">String fecha_de_ingreso</span><span class="s2">, </span><span class="s1">String tipo_galeria</span><span class="s2">) {</span>
+        <span class="s1">setNombre</span><span class="s2">(</span><span class="s1">nombre</span><span class="s2">);</span>
+        <span class="s0">this</span><span class="s2">.</span><span class="s1">rut </span><span class="s2">= </span><span class="s1">rut</span><span class="s2">;</span>
+        <span class="s0">this</span><span class="s2">.</span><span class="s1">nro_artista </span><span class="s2">= </span><span class="s1">nro_artista</span><span class="s2">;</span>
+        <span class="s1">setFecha_de_ingreso</span><span class="s2">(</span><span class="s1">fecha_de_ingreso</span><span class="s2">);</span>
+        <span class="s0">this</span><span class="s2">.</span><span class="s1">tipo_galeria </span><span class="s2">= </span><span class="s1">tipo_galeria</span><span class="s2">;</span>
+    <span class="s2">}</span>
+
+    <span class="s3">// Getters</span>
+    <span class="s0">public </span><span class="s1">String getNombre</span><span class="s2">() {</span>
+        <span class="s0">return </span><span class="s1">nombre</span><span class="s2">;</span>
+    <span class="s2">}</span>
+
+    <span class="s0">public </span><span class="s1">String getRut</span><span class="s2">() {</span>
+        <span class="s0">return </span><span class="s1">rut</span><span class="s2">;</span>
+    <span class="s2">}</span>
+
+    <span class="s0">public int </span><span class="s1">getNro_artista</span><span class="s2">() {</span>
+        <span class="s0">return </span><span class="s1">nro_artista</span><span class="s2">;</span>
+    <span class="s2">}</span>
+
+    <span class="s0">public </span><span class="s1">String getFecha_de_ingreso</span><span class="s2">() {</span>
+        <span class="s0">return </span><span class="s1">fecha_de_ingreso</span><span class="s2">;</span>
+    <span class="s2">}</span>
+
+    <span class="s0">public </span><span class="s1">String getTipo_galeria</span><span class="s2">() {</span>
+        <span class="s0">return </span><span class="s1">tipo_galeria</span><span class="s2">;</span>
+    <span class="s2">}</span>
+
+    <span class="s3">// Setters</span>
+    <span class="s0">public void </span><span class="s1">setNombre</span><span class="s2">(</span><span class="s1">String nombre</span><span class="s2">) {</span>
+        <span class="s0">if </span><span class="s2">(</span><span class="s1">nombre </span><span class="s2">== </span><span class="s0">null </span><span class="s2">|| </span><span class="s1">nombre</span><span class="s2">.</span><span class="s1">trim</span><span class="s2">().</span><span class="s1">isEmpty</span><span class="s2">()) {</span>
+            <span class="s0">throw new </span><span class="s1">IllegalArgumentException</span><span class="s2">(</span><span class="s4">&quot;El nombre del artista no puede estar vacío.&quot;</span><span class="s2">);</span>
+        <span class="s2">}</span>
+        <span class="s0">this</span><span class="s2">.</span><span class="s1">nombre </span><span class="s2">= </span><span class="s1">nombre</span><span class="s2">;</span>
+    <span class="s2">}</span>
+
+    <span class="s0">public void </span><span class="s1">setRut</span><span class="s2">(</span><span class="s1">String rut</span><span class="s2">) {</span>
+        <span class="s0">this</span><span class="s2">.</span><span class="s1">rut </span><span class="s2">= </span><span class="s1">rut</span><span class="s2">;</span>
+    <span class="s2">}</span>
+
+    <span class="s0">public void </span><span class="s1">setNro_artista</span><span class="s2">(</span><span class="s0">int </span><span class="s1">nro_artista</span><span class="s2">) {</span>
+        <span class="s0">this</span><span class="s2">.</span><span class="s1">nro_artista </span><span class="s2">= </span><span class="s1">nro_artista</span><span class="s2">;</span>
+    <span class="s2">}</span>
+
+    <span class="s0">public void </span><span class="s1">setFecha_de_ingreso</span><span class="s2">(</span><span class="s1">String fecha_de_ingreso</span><span class="s2">) {</span>
+        <span class="s0">if </span><span class="s2">(</span><span class="s1">fecha_de_ingreso </span><span class="s2">== </span><span class="s0">null </span><span class="s2">|| </span><span class="s1">fecha_de_ingreso</span><span class="s2">.</span><span class="s1">trim</span><span class="s2">().</span><span class="s1">isEmpty</span><span class="s2">()) {</span>
+            <span class="s0">throw new </span><span class="s1">IllegalArgumentException</span><span class="s2">(</span><span class="s4">&quot;La fecha de ingreso no puede estar vacía.&quot;</span><span class="s2">);</span>
+        <span class="s2">}</span>
+        <span class="s0">this</span><span class="s2">.</span><span class="s1">fecha_de_ingreso </span><span class="s2">= </span><span class="s1">fecha_de_ingreso</span><span class="s2">;</span>
+    <span class="s2">}</span>
+
+    <span class="s0">public void </span><span class="s1">setTipo_galeria</span><span class="s2">(</span><span class="s1">String tipo_galeria</span><span class="s2">) {</span>
+        <span class="s0">this</span><span class="s2">.</span><span class="s1">tipo_galeria </span><span class="s2">= </span><span class="s1">tipo_galeria</span><span class="s2">;</span>
+    <span class="s2">}</span>
+
+    <span class="s3">// Método toString</span>
+    <span class="s1">@Override</span>
+    <span class="s0">public </span><span class="s1">String toString</span><span class="s2">() {</span>
+        <span class="s0">return </span><span class="s4">&quot;Artista {&quot; </span><span class="s2">+</span>
+                <span class="s4">&quot;Nombre='&quot; </span><span class="s2">+ </span><span class="s1">nombre </span><span class="s2">+ </span><span class="s4">'</span><span class="s0">\'</span><span class="s4">' </span><span class="s2">+</span>
+                <span class="s4">&quot;, RUT='&quot; </span><span class="s2">+ </span><span class="s1">rut </span><span class="s2">+ </span><span class="s4">'</span><span class="s0">\'</span><span class="s4">' </span><span class="s2">+</span>
+                <span class="s4">&quot;, Nro Artista=&quot; </span><span class="s2">+ </span><span class="s1">nro_artista </span><span class="s2">+</span>
+                <span class="s4">&quot;, Fecha de Ingreso='&quot; </span><span class="s2">+ </span><span class="s1">fecha_de_ingreso </span><span class="s2">+ </span><span class="s4">'</span><span class="s0">\'</span><span class="s4">' </span><span class="s2">+</span>
+                <span class="s4">&quot;, Tipo de Galería='&quot; </span><span class="s2">+ </span><span class="s1">tipo_galeria </span><span class="s2">+ </span><span class="s4">'</span><span class="s0">\'</span><span class="s4">' </span><span class="s2">+</span>
+                <span class="s4">'}'</span><span class="s2">;</span>
+    <span class="s2">}</span>
+<span class="s2">}</span>
+</pre>
+</body>
+</html>

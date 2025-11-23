@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DADF67ED-4C98-6F80-DB22-B58094CEB0C2" name="Visitas Tours">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-27 00:01:42 UTC</createdTime>
+<ownerDesignName>zoo_final</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id visita tour" id="E16BA24C-4F3B-E5D3-2AC0-673D1EAF99E0">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-27 00:01:52 UTC</createdTime>
+<ownerDesignName>zoo_final</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tours id tour" id="77854208-4175-0361-BDED-2058591E6CD0">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-27 00:02:08 UTC</createdTime>
+<generatorID>B4DD43AF-5F05-91CD-7C39-8CB3B8A9DDEC</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<referedAttribute>25E54A61-E5C7-99E8-AFCA-7DDFB1B363F6</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Visitas id visita" id="B1822773-9BB1-C0AB-0762-5EE2203EB168">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-27 00:02:13 UTC</createdTime>
+<generatorID>FFBFEDF7-9853-A12E-0D37-8EC38893BE97</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<referedAttribute>62ACCEFD-DBC7-BBDA-356C-B81F360CD88B</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2D0187BA-F62D-BF2F-98B9-BFAFE375B935" name="Visitas_Tours_PK">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-27 00:01:59 UTC</createdTime>
+<ownerDesignName>zoo_final</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E16BA24C-4F3B-E5D3-2AC0-673D1EAF99E0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="76B04365-1724-36B7-6B8B-2E9617291225" name="CLIENTE">
+<createdBy>BilbaoLabs</createdBy>
+<createdTime>2024-02-29 19:27:04 UTC</createdTime>
+<ownerDesignName>spa_boutique</ownerDesignName>
+<engineerTo>
+<item key="8AA3C162-D1AA-82A5-7D71-ABF03733A398" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="run" id="A75C19F1-C8F6-EA50-92BB-458B476AD687">
+<createdBy>BilbaoLabs</createdBy>
+<createdTime>2024-02-29 19:27:08 UTC</createdTime>
+<ownerDesignName>spa_boutique</ownerDesignName>
+<engineerTo>
+<item key="8AA3C162-D1AA-82A5-7D71-ABF03733A398" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombres" id="B4938BCB-6077-C888-5C80-3A4F168F0E09">
+<createdBy>BilbaoLabs</createdBy>
+<createdTime>2024-02-29 19:27:16 UTC</createdTime>
+<ownerDesignName>spa_boutique</ownerDesignName>
+<engineerTo>
+<item key="8AA3C162-D1AA-82A5-7D71-ABF03733A398" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellidos" id="38E13958-E91D-E265-2CD9-4F80F2BB880D">
+<createdBy>BilbaoLabs</createdBy>
+<createdTime>2024-02-29 19:27:21 UTC</createdTime>
+<ownerDesignName>spa_boutique</ownerDesignName>
+<engineerTo>
+<item key="8AA3C162-D1AA-82A5-7D71-ABF03733A398" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fono" id="C53375F2-0A4C-0F4F-BA55-1D55A72DDA0C">
+<createdBy>BilbaoLabs</createdBy>
+<createdTime>2024-02-29 19:27:25 UTC</createdTime>
+<ownerDesignName>spa_boutique</ownerDesignName>
+<engineerTo>
+<item key="8AA3C162-D1AA-82A5-7D71-ABF03733A398" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="24FDC728-FB3F-4F9B-9A99-03ADC84722D3">
+<createdBy>BilbaoLabs</createdBy>
+<createdTime>2024-02-29 19:27:29 UTC</createdTime>
+<ownerDesignName>spa_boutique</ownerDesignName>
+<engineerTo>
+<item key="8AA3C162-D1AA-82A5-7D71-ABF03733A398" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="correo" id="D41A51D2-7B62-140D-8F14-65A1E8CFDF16">
+<createdBy>BilbaoLabs</createdBy>
+<createdTime>2024-02-29 19:27:35 UTC</createdTime>
+<ownerDesignName>spa_boutique</ownerDesignName>
+<engineerTo>
+<item key="8AA3C162-D1AA-82A5-7D71-ABF03733A398" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_comuna" id="2A0C33A1-AE02-ED47-6D8C-CE140AF57D41">
+<createdBy>BilbaoLabs</createdBy>
+<createdTime>2024-02-29 19:27:40 UTC</createdTime>
+<ownerDesignName>spa_boutique</ownerDesignName>
+<engineerTo>
+<item key="8AA3C162-D1AA-82A5-7D71-ABF03733A398" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E94746B7-718C-FDC1-2E10-6014BDC1BA68" name="CLIENTE PK">
+<createdBy>BilbaoLabs</createdBy>
+<createdTime>2024-02-29 19:27:45 UTC</createdTime>
+<ownerDesignName>spa_boutique</ownerDesignName>
+<engineerTo>
+<item key="8AA3C162-D1AA-82A5-7D71-ABF03733A398" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A75C19F1-C8F6-EA50-92BB-458B476AD687</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

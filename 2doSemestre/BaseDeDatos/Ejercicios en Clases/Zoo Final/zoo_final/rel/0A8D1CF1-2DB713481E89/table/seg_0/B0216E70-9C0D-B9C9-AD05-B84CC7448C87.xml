@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B0216E70-9C0D-B9C9-AD05-B84CC7448C87" name="Habitats_Especies">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>92121858-8C46-A178-AEBA-877FB5597B44</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_habitat_especie" id="1D1D7271-EF24-C44D-8F97-64AE00499DE2">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>6FA96C3F-7F1E-A8FC-E262-69A01845B554</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Especies_id_especie" id="2039C5F2-E2A8-C137-8BED-4F82C00B88A3">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>AB347CC9-2C0E-4374-A03D-36E5565E9359</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FE5FFB60-3A50-E33D-40DD-47FF8D0BFD14" referredColumn="AB4AB18C-5699-619B-D11A-EF5E38BC4BE6"/>
+</associations>
+</Column>
+<Column name="Habitats_id_habitat" id="6E828333-BAFD-4492-6B02-F10466DD311D">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>EBF792A6-439F-8099-3E1A-F18326576A1F</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A20C22E7-0AF6-DE5E-8B57-BD703B5E44A1" referredColumn="C90D6371-BA38-E81C-8AD5-FF635C1040B6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3C0F2CA5-5846-8FAD-C5EE-39E99FFC6DE9" name="Habitats_Especies_PK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>8EE9161D-A940-0EA8-59D1-E47C685604E4</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D1D7271-EF24-C44D-8F97-64AE00499DE2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A685F3EB-0039-4D00-71C5-56981823A2F6" name="Habitats_Especies_Especies_FK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>87992EF3-9D2C-1C15-8917-3592ACAA9CF9</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2039C5F2-E2A8-C137-8BED-4F82C00B88A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4F75D763-04CB-5525-D6C4-7D6CB949F2EA" name="Habitats_Especies_Habitats_FK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>D53BC631-AB61-30F3-5ED7-64F3DA68BE27</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E828333-BAFD-4492-6B02-F10466DD311D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

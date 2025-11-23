@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A6A8253F-CCC8-5CCC-3AFC-817ECD3919BA" name="Tipo_Academia">
+<createdBy>Casassa</createdBy>
+<createdTime>2025-10-17 02:42:48 UTC</createdTime>
+<generatorID>B16E7C69-34A2-D322-9737-75E898590D37</generatorID>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Tipo_2_id_tipo_academia" id="759584AD-63A1-7CE7-8FAE-360001698C51">
+<createdBy>Casassa</createdBy>
+<createdTime>2025-10-17 02:42:48 UTC</createdTime>
+<generatorID>FD7CA05E-CEEE-A2CB-6D7B-3F6157370E70</generatorID>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8BDEDAF6-08DF-71E7-42A8-70DD4E86BAC2" referredColumn="48EA0248-89C7-218C-D4A0-8F915EDFA612"/>
+</associations>
+</Column>
+<Column name="Academias_id_academia" id="B91661B9-451F-379D-319A-35A07BD13BB3">
+<createdBy>Casassa</createdBy>
+<createdTime>2025-10-17 02:42:48 UTC</createdTime>
+<generatorID>43539310-B9CA-2792-E1CD-8CE6FB649626</generatorID>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C0B3C5A1-859C-1A3D-F434-276DD5CFE722" referredColumn="1EDCF801-75B9-ADE2-99C4-A1E76457BC6F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E0EE242A-A83C-22BE-1487-E6583725F7F8" name="Tipo_Academia_Tipo_2_FK">
+<createdBy>Casassa</createdBy>
+<createdTime>2025-10-17 02:42:48 UTC</createdTime>
+<generatorID>8BE52CB5-3394-2777-3B16-849AB8D5E85C</generatorID>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="759584AD-63A1-7CE7-8FAE-360001698C51"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C27E6BF4-6470-048F-0971-9B337BCDCB8A" name="Tipo_Academia_Academias_FK">
+<createdBy>Casassa</createdBy>
+<createdTime>2025-10-17 02:42:48 UTC</createdTime>
+<generatorID>65275555-841F-8D29-EA41-46295C5CB366</generatorID>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B91661B9-451F-379D-319A-35A07BD13BB3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="862F1DC8-0734-BF46-0C9D-3C56FF1FC43A" containerWithKeyObject="CB100AF3-96BD-C64C-80B1-A8C4F92ABEEF" localFKIndex="17A6B385-BCB2-D5FB-9D33-027BBA48B20E" name="Formulario_Insumos_FK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-16 22:06:05 UTC</createdTime>
+<generatorID>8D73514B-D3E2-4D0C-1DC8-432602640AD6</generatorID>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<referredTableLongName>Insumos</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F40253BE-0AE2-6D67-4D9C-ADBC5CD1F30F</referredTableID>
+<keyObject>26B46320-4FAB-819C-AB32-A5570957E0D9</keyObject>
+<referredKeyID>26B46320-4FAB-819C-AB32-A5570957E0D9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_insumo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

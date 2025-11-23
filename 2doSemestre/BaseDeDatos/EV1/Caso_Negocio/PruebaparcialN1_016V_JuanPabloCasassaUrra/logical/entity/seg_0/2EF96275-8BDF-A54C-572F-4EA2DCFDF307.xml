@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2EF96275-8BDF-A54C-572F-4EA2DCFDF307" name="Estudiantes">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-11 23:36:26 UTC</createdTime>
+<ownerDesignName>PruebaparcialN1_016V_JuanPabloCasassaUrra</ownerDesignName>
+<engineerTo>
+<item key="18D7BD2B-1603-26D9-85A8-731FD4FC53AE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="rut_usuario" id="2A85B0FF-E908-7A3E-C94A-BB541189A006">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-12 00:38:19 UTC</createdTime>
+<generatorID>3854B849-7A89-589A-2FF6-2CAE156B0145</generatorID>
+<ownerDesignName>PruebaparcialN1_016V_JuanPabloCasassaUrra</ownerDesignName>
+<engineerTo>
+<item key="18D7BD2B-1603-26D9-85A8-731FD4FC53AE" value="true"/>
+</engineerTo>
+<referedAttribute>46727327-E9F5-4C88-5CC2-4797D87F96E6</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_estudiante" id="0CD44DD1-7DB6-2A4B-D305-CFACD01271D7">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-12 01:14:15 UTC</createdTime>
+<ownerDesignName>PruebaparcialN1_016V_JuanPabloCasassaUrra</ownerDesignName>
+<engineerTo>
+<item key="18D7BD2B-1603-26D9-85A8-731FD4FC53AE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="856BD4E0-9C88-305C-4CA6-EB9FB5AC624B" name="Estudiantes PK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-11 23:39:59 UTC</createdTime>
+<ownerDesignName>PruebaparcialN1_016V_JuanPabloCasassaUrra</ownerDesignName>
+<engineerTo>
+<item key="18D7BD2B-1603-26D9-85A8-731FD4FC53AE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0CD44DD1-7DB6-2A4B-D305-CFACD01271D7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

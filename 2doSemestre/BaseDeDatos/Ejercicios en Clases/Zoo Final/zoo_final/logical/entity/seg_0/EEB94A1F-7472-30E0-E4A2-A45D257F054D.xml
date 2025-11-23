@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EEB94A1F-7472-30E0-E4A2-A45D257F054D" name="Tours">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-21 23:29:53 UTC</createdTime>
+<ownerDesignName>zoo_final</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id tour" id="25E54A61-E5C7-99E8-AFCA-7DDFB1B363F6">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-21 23:30:13 UTC</createdTime>
+<ownerDesignName>zoo_final</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo" id="14C4F129-44E9-9B31-9425-966846223BB0">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-21 23:30:20 UTC</createdTime>
+<ownerDesignName>zoo_final</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hora inicio" id="19C3D44D-7C9F-46F5-2E95-76EB6CC2FAF9">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-21 23:43:19 UTC</createdTime>
+<ownerDesignName>zoo_final</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="duracion" id="D1D7C01A-5002-C60A-461F-446F0E8619C7">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-21 23:43:32 UTC</createdTime>
+<ownerDesignName>zoo_final</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="longitud recorrido" id="79987299-3F6C-D0F3-6151-F64BF97FED74">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-21 23:43:48 UTC</createdTime>
+<ownerDesignName>zoo_final</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="maximos visitantes" id="D28A8D7F-1C5D-5E04-D1E0-01FAC989AD6E">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-21 23:44:00 UTC</createdTime>
+<ownerDesignName>zoo_final</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Guias id guia" id="F672186D-A45E-E220-AD8A-8AF2FA7669E3">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-26 23:42:23 UTC</createdTime>
+<generatorID>5445329D-9611-FA71-41C5-D944E1827760</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<referedAttribute>1B436BB4-26BD-9FCB-5308-01BD955ABA65</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id zona" id="3F3C432B-078C-32EA-2A48-975A895BED3F">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-26 23:47:36 UTC</createdTime>
+<generatorID>72D827F8-A80F-6535-CD1A-78732380D734</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<referedAttribute>4C258B86-174C-B77B-EBB0-9CBFE5290DD1</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3CA3DA77-69B2-B62A-C07A-5D01D344C3C0" name="Tours PK">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-21 23:30:19 UTC</createdTime>
+<ownerDesignName>zoo_final</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>25E54A61-E5C7-99E8-AFCA-7DDFB1B363F6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

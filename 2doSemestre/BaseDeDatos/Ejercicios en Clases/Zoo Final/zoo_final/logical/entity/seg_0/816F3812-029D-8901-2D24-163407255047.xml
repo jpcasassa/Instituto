@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="816F3812-029D-8901-2D24-163407255047" name="Personas Visitas">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-27 00:02:23 UTC</createdTime>
+<ownerDesignName>zoo_final</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id visita persona" id="994F9211-D196-FA4A-00E0-24A719EFA5D7">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-27 00:02:32 UTC</createdTime>
+<ownerDesignName>zoo_final</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Personas id persona" id="97309278-98E9-C71A-344E-D02635ED64B6">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-27 00:02:49 UTC</createdTime>
+<generatorID>F2400D66-91DE-E5B6-E245-65FE1C9230E1</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<referedAttribute>2ADAFFEC-6B80-E19E-FDA4-F7B4130CA180</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id visita" id="2E8F84DA-B8ED-C1A7-7B0C-B9AABA4C8162">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-27 00:02:54 UTC</createdTime>
+<generatorID>0AE3A332-27DC-DF5F-FFC5-4D3FC885B3E1</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<referedAttribute>62ACCEFD-DBC7-BBDA-356C-B81F360CD88B</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0736C016-8EB6-39AA-7903-304364F15FFD" name="Personas_Visitas_PK">
+<createdBy>Cetecom</createdBy>
+<createdTime>2025-08-27 00:02:46 UTC</createdTime>
+<ownerDesignName>zoo_final</ownerDesignName>
+<engineerTo>
+<item key="0A8D1CF1-C0D2-85FA-D355-2DB713481E89" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>994F9211-D196-FA4A-00E0-24A719EFA5D7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

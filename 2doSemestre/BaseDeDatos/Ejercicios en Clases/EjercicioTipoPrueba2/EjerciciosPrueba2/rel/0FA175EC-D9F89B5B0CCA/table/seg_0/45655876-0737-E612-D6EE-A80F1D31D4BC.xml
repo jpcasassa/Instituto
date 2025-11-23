@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="45655876-0737-E612-D6EE-A80F1D31D4BC" name="Nacionalidad_Directores">
+<createdBy>Casassa</createdBy>
+<createdTime>2025-10-17 02:42:48 UTC</createdTime>
+<generatorID>C4DD189D-10EF-9620-D0EB-84AD67399FD6</generatorID>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nacionalidad_id_nacionalidad" id="34AB1A62-6D73-2BB1-2934-104B44EAC543">
+<createdBy>Casassa</createdBy>
+<createdTime>2025-10-17 02:42:48 UTC</createdTime>
+<generatorID>1D74D205-FE87-8658-F1AD-E453D5596C6E</generatorID>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="971B89B1-4828-FF77-BCB1-01ACD6660059" referredColumn="84E055FD-AC52-F280-00D3-94EC04090A8F"/>
+</associations>
+</Column>
+<Column name="Directores_id_director" id="215EAA34-1255-4961-F3F0-48A6637B5C1C">
+<createdBy>Casassa</createdBy>
+<createdTime>2025-10-17 02:42:48 UTC</createdTime>
+<generatorID>CCCE7EA4-7FAC-79BD-4611-091408B1E9D9</generatorID>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6A6B7975-4782-7CF5-B563-07154EB730DB" referredColumn="9C41A39A-B129-AC85-4ABE-AC41CBB91C8F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="26CC18CA-E1C3-D272-7EB9-6F7ACEF83CE9" name="Nacionalidad_Directores_Nacionalidad_FK">
+<createdBy>Casassa</createdBy>
+<createdTime>2025-10-17 02:42:48 UTC</createdTime>
+<generatorID>692C7CB0-A951-4143-6FA6-0A0DF7468701</generatorID>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34AB1A62-6D73-2BB1-2934-104B44EAC543"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E9EBB281-FD4E-8035-ECF0-BE636AC4F9A0" name="Nacionalidad_Directores_Directores_FK">
+<createdBy>Casassa</createdBy>
+<createdTime>2025-10-17 02:42:48 UTC</createdTime>
+<generatorID>FBCADCF3-9A9E-41A0-FCEA-20DBBF831C84</generatorID>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="215EAA34-1255-4961-F3F0-48A6637B5C1C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

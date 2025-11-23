@@ -1,0 +1,28 @@
+charAt (int index) -> devuelve el caracter en la posicion indicada.
+
+	char a = 'a';
+
+	String mensaje = "Hola, bienvenido a la clase de POO!";
+	char primeraLetra = mensaje.charAt(0);
+	System.out.println("charAt(0): " + primeraLetra);
+
+indexOf (String s) -> devuelve la posición de la primera ocurrencia.
+	System.out.println("indexOf('Hola'): " + mensaje.indexOf("Hola")
+		System.out.println("indexOf('la'): " + mensaje.indexOf("la")
+		System.out.println("indexOf('chao'): " + mensaje.indexOf("chao")
+
+toUpperCase() -> convierte a mayúsculas.
+toLowerCase() -> convierte a minúsculas.
+	System.out.println("toUpperCase: " + mensaje.toUpperCase())
+	System.out.println("toLowerCase: " + mensaje.toLowerCase())
+
+startsWith (String s) -> verifica si empieza con un texto.
+	System.out.println("startWith: " + mensaje.starWith("Hola"))
+	System.out.println("startWith: " + mensaje.starWith("hola"))
+	
+
+endsWith(String s) -> verifica si termina con un texto.
+	System.out.println("endtWith: " + mensaje.endwith("OO!"))
+	System.out.println("endtWith: " + mensaje.endwith("OO"))
+
+is.UpperCase

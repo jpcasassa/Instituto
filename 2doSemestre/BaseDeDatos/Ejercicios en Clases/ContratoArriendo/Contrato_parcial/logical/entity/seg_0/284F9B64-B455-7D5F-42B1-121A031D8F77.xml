@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="284F9B64-B455-7D5F-42B1-121A031D8F77" name="Pagos">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-07 22:45:39 UTC</createdTime>
+<ownerDesignName>Contrato_parcial</ownerDesignName>
+<engineerTo>
+<item key="2843F889-80D5-ED22-48BB-E95383CB9E46" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_pago" id="9E835EB4-7B73-6182-68DD-FFE2ED7F92D4">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-07 22:45:47 UTC</createdTime>
+<ownerDesignName>Contrato_parcial</ownerDesignName>
+<engineerTo>
+<item key="2843F889-80D5-ED22-48BB-E95383CB9E46" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha" id="4E8A0FA4-4B3E-50AA-BE20-9733703E8C13">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-07 22:46:02 UTC</createdTime>
+<ownerDesignName>Contrato_parcial</ownerDesignName>
+<engineerTo>
+<item key="2843F889-80D5-ED22-48BB-E95383CB9E46" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_contrato" id="A5D41297-CDA7-38A4-A310-BFAC53D0899C">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-07 23:10:48 UTC</createdTime>
+<generatorID>8EE9A27A-411B-BE35-81D5-C07254AE4D13</generatorID>
+<ownerDesignName>Contrato_parcial</ownerDesignName>
+<engineerTo>
+<item key="2843F889-80D5-ED22-48BB-E95383CB9E46" value="true"/>
+</engineerTo>
+<referedAttribute>A378B2C2-7599-2368-2CD1-41F894CF93D1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_metodo_pago" id="08BD6424-5AF2-2ADB-79D3-6A124C9CA22D">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-07 23:18:50 UTC</createdTime>
+<generatorID>91E370D2-1BB3-0025-427B-3AFCEAC7837D</generatorID>
+<ownerDesignName>Contrato_parcial</ownerDesignName>
+<engineerTo>
+<item key="2843F889-80D5-ED22-48BB-E95383CB9E46" value="true"/>
+</engineerTo>
+<referedAttribute>42FEC8CC-CF37-A873-2643-D08E05E9F012</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_banco" id="FFA35D29-AF7C-F86F-3B3F-ED915907B77F">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-07 23:23:19 UTC</createdTime>
+<generatorID>BFCCB4BE-6B84-3F39-2FCC-DB06412AB74F</generatorID>
+<ownerDesignName>Contrato_parcial</ownerDesignName>
+<engineerTo>
+<item key="2843F889-80D5-ED22-48BB-E95383CB9E46" value="true"/>
+</engineerTo>
+<referedAttribute>E2E2EB8D-02BF-B77B-702B-3A8C9D30660E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="905C8A8D-42B8-F329-07FB-D75F0D783F8B" name="Pagos PK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-07 22:46:00 UTC</createdTime>
+<ownerDesignName>Contrato_parcial</ownerDesignName>
+<engineerTo>
+<item key="2843F889-80D5-ED22-48BB-E95383CB9E46" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9E835EB4-7B73-6182-68DD-FFE2ED7F92D4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

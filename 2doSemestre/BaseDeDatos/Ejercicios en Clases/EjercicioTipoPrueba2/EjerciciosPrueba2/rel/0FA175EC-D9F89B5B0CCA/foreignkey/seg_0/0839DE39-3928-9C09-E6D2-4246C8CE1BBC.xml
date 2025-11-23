@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0839DE39-3928-9C09-E6D2-4246C8CE1BBC" containerWithKeyObject="FE1418AB-70F7-E59F-3BB6-7AF674921BCE" localFKIndex="3EA0D661-8128-A4F1-A19A-F837C302F293" name="Tipo_Inversion_Inversiones_FK">
+<createdBy>Casassa</createdBy>
+<createdTime>2025-10-17 02:42:48 UTC</createdTime>
+<generatorID>BFACF4B4-5626-47DB-BC09-245110D4C84F</generatorID>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<referredTableLongName>Inversiones</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CC265891-FB3F-2E5D-60DF-333945333639</referredTableID>
+<keyObject>08CFC719-38CF-EA18-6C6D-48306BC95936</keyObject>
+<referredKeyID>08CFC719-38CF-EA18-6C6D-48306BC95936</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_inversion</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DA2F4F93-A3D5-6809-E107-DEB1DE7F3C77" name="Sucursal">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>24C54B3D-B601-AC1E-7958-5E1349AA8754</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_sucursal" id="A921C531-24C5-15E5-0785-22EB0C772778">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>D491E375-7BEF-C51E-6E66-0BDCD832C6A2</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="C60D4530-4DA5-1F33-5338-F2F3CAFCD397">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>89264F57-E120-5CE5-F9E1-2F686C4C7541</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Parques_id_parque" id="FEEF8CD8-05CB-12C6-BDF0-A795F75FD60B">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>03E048D9-8D73-AF17-22A9-D700190E4395</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0964C5DD-F1A3-3E04-9C6F-9F3DDBE30081" referredColumn="9192DE07-919F-CC6A-2822-72EA0999A125"/>
+</associations>
+</Column>
+<Column name="Zonas_id_zona" id="02BCF19A-FD6A-03A9-4121-048E483371F5">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>A72A137C-058A-DAB0-CE64-0205A07A85A8</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="902303F3-BE30-16C0-9F34-8681E10306B0" referredColumn="C8470FAE-6AB9-BBF7-D7FA-399E506A5D9F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="724C9CEE-FE7E-70DC-9CCE-D7300D6F6598" name="Sucursal_PK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>B0AA6710-7449-792B-B574-728DB1E2E200</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A921C531-24C5-15E5-0785-22EB0C772778"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="40796CF9-49B2-7269-1674-E6CA982ED95A" name="Sucursal_Zonas_FK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>41DC0247-E531-9A89-9DEC-71270C5841F6</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02BCF19A-FD6A-03A9-4121-048E483371F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D4108A6F-89E3-A52D-B9FE-5F7B9F6E6956" name="Sucursal_Parques_FK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>83D40E05-F227-B1A0-3C2C-43B8AD42C27D</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FEEF8CD8-05CB-12C6-BDF0-A795F75FD60B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

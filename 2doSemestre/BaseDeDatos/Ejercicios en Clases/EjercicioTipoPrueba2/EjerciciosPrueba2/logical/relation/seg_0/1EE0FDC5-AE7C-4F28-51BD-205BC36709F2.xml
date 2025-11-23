@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Directores Comunas FK" directorySegmentName="seg_0" id="1EE0FDC5-AE7C-4F28-51BD-205BC36709F2">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-16 21:50:47 UTC</createdTime>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<engineerTo>
+<item key="0FA175EC-4E90-EAB6-9D5C-D9F89B5B0CCA" value="true"/>
+</engineerTo>
+<sourcePk>B4E8E6EE-AD6C-3304-3C62-C36448474947</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>246F5EF8-BBA8-87A7-9DE4-B58E405DBBDF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9DF4D5E5-12B8-2887-6EDA-833B8FB12C71</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

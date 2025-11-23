@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C20BF743-FF50-8743-D302-A95D9A4F9A10" name="Contratos">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-14 04:06:25 UTC</createdTime>
+<ownerDesignName>Contrato001</ownerDesignName>
+<engineerTo>
+<item key="C230432E-413D-9612-3BC4-BD2A359457B4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_contrato" id="608BB65B-9BC3-0B46-5DC9-96D727FCF239">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-14 04:06:32 UTC</createdTime>
+<ownerDesignName>Contrato001</ownerDesignName>
+<engineerTo>
+<item key="C230432E-413D-9612-3BC4-BD2A359457B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_firma" id="D37533AA-A9C8-AC57-F4FA-EB4EB8A50CD4">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-14 04:07:27 UTC</createdTime>
+<ownerDesignName>Contrato001</ownerDesignName>
+<engineerTo>
+<item key="C230432E-413D-9612-3BC4-BD2A359457B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="firmado" id="38B77AE0-2EF9-15C3-2E37-532FE07084F9">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-14 04:11:29 UTC</createdTime>
+<ownerDesignName>Contrato001</ownerDesignName>
+<engineerTo>
+<item key="C230432E-413D-9612-3BC4-BD2A359457B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_inversion" id="38CA3EE1-1CD1-8AF7-94B3-9CD7F275AED0">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-14 23:07:32 UTC</createdTime>
+<generatorID>0478D17F-A315-5254-5200-1F4438640486</generatorID>
+<ownerDesignName>Contrato001</ownerDesignName>
+<engineerTo>
+<item key="C230432E-413D-9612-3BC4-BD2A359457B4" value="true"/>
+</engineerTo>
+<referedAttribute>E72F4BEB-5752-6252-E7C1-704C34AC0300</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D24C0F1E-1F4F-0A25-CF97-4B4335814159" name="Contratos PK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-14 04:06:44 UTC</createdTime>
+<ownerDesignName>Contrato001</ownerDesignName>
+<engineerTo>
+<item key="C230432E-413D-9612-3BC4-BD2A359457B4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>608BB65B-9BC3-0B46-5DC9-96D727FCF239</attributeRef>
+<attributeRef>D37533AA-A9C8-AC57-F4FA-EB4EB8A50CD4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

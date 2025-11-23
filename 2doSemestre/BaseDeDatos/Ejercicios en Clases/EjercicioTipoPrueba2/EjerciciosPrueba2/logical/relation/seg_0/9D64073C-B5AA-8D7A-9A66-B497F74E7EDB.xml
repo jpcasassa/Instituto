@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Formulario Inversiones FK" directorySegmentName="seg_0" id="9D64073C-B5AA-8D7A-9A66-B497F74E7EDB">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-10-16 21:42:29 UTC</createdTime>
+<ownerDesignName>EjerciciosPrueba2</ownerDesignName>
+<engineerTo>
+<item key="0FA175EC-4E90-EAB6-9D5C-D9F89B5B0CCA" value="true"/>
+</engineerTo>
+<sourcePk>6768AE7B-24C2-9D5C-542C-62375AB19BE1</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>509C0FBC-865B-DFE3-FAFB-1A81DB3CBD3A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>AC114B13-23FC-55DD-5B88-57193533EB5C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

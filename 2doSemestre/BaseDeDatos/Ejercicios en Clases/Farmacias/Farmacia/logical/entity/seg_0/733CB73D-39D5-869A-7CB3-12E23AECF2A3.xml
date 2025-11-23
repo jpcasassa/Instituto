@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="733CB73D-39D5-869A-7CB3-12E23AECF2A3" name="Trabajadores">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-08-28 23:43:59 UTC</createdTime>
+<ownerDesignName>Farmacia</ownerDesignName>
+<engineerTo>
+<item key="C7A76FCB-C9F2-F8A4-2CFB-13A5491DB15E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_trabajador" id="5C495CD3-2908-E891-C4D8-9C21879C8C2F">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-08-28 23:44:10 UTC</createdTime>
+<ownerDesignName>Farmacia</ownerDesignName>
+<engineerTo>
+<item key="C7A76FCB-C9F2-F8A4-2CFB-13A5491DB15E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut" id="A2549FAC-EB77-BD8A-B8A8-C3109F2AF366">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:34:02 UTC</createdTime>
+<ownerDesignName>Farmacia</ownerDesignName>
+<engineerTo>
+<item key="C7A76FCB-C9F2-F8A4-2CFB-13A5491DB15E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="7B79A94D-0799-18C6-328A-D7BCA7827B63">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-08-28 23:44:15 UTC</createdTime>
+<ownerDesignName>Farmacia</ownerDesignName>
+<engineerTo>
+<item key="C7A76FCB-C9F2-F8A4-2CFB-13A5491DB15E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="primer_apellido" id="078151F0-769D-C949-5BAE-B394C3E2296C">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:34:20 UTC</createdTime>
+<ownerDesignName>Farmacia</ownerDesignName>
+<engineerTo>
+<item key="C7A76FCB-C9F2-F8A4-2CFB-13A5491DB15E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="segundo_apellido" id="D23EC827-CF4E-D0DF-C8C1-23695E28F356">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:34:37 UTC</createdTime>
+<ownerDesignName>Farmacia</ownerDesignName>
+<engineerTo>
+<item key="C7A76FCB-C9F2-F8A4-2CFB-13A5491DB15E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono" id="DD1C3E26-A0B7-5B38-4501-E754C6F59888">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:34:49 UTC</createdTime>
+<ownerDesignName>Farmacia</ownerDesignName>
+<engineerTo>
+<item key="C7A76FCB-C9F2-F8A4-2CFB-13A5491DB15E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="domicilio" id="1E993C2A-6530-F4A8-2695-74CA6FB43779">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:34:56 UTC</createdTime>
+<ownerDesignName>Farmacia</ownerDesignName>
+<engineerTo>
+<item key="C7A76FCB-C9F2-F8A4-2CFB-13A5491DB15E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7745BA7E-A7B3-AAEA-C254-E68059B7AFC3" name="Trabajadores PK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-08-28 23:44:23 UTC</createdTime>
+<ownerDesignName>Farmacia</ownerDesignName>
+<engineerTo>
+<item key="C7A76FCB-C9F2-F8A4-2CFB-13A5491DB15E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5C495CD3-2908-E891-C4D8-9C21879C8C2F</attributeRef>
+<attributeRef>A2549FAC-EB77-BD8A-B8A8-C3109F2AF366</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

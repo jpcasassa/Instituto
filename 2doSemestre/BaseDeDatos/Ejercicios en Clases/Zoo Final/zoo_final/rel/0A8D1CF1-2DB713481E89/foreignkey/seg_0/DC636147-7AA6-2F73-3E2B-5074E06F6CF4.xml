@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DC636147-7AA6-2F73-3E2B-5074E06F6CF4" containerWithKeyObject="8C5703D0-5F35-64A6-6BAB-C6B0982E62DA" localFKIndex="D44460DE-CB84-0A0C-FD42-67404201C6DC" name="Tours_Guias_FK">
+<createdBy>Servicios Digitales</createdBy>
+<createdTime>2025-09-02 23:57:05 UTC</createdTime>
+<generatorID>5445329D-9611-FA71-41C5-D944E1827760</generatorID>
+<ownerDesignName>zoo_final</ownerDesignName>
+<referredTableLongName>Guias</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DC0E652F-2004-266F-4D02-A477943B56D6</referredTableID>
+<keyObject>9D6CC3A3-F3C3-DD75-4E86-3801EAB0231A</keyObject>
+<referredKeyID>9D6CC3A3-F3C3-DD75-4E86-3801EAB0231A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_guia</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
